@@ -1,0 +1,16 @@
+<srw_dc:dc xmlns:srw_dc="info:srw/schema/1/dc-schema" xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:srw/schema/1/dc-schema http://www.loc.gov/standards/sru/resources/dc-schema.xsd">
+<title xmlns="http://purl.org/dc/elements/1.1/">Costs and outcomes in children's social care : messages from research /</title>
+<creator xmlns="http://purl.org/dc/elements/1.1/">Beecham, Jennifer.</creator>
+<creator xmlns="http://purl.org/dc/elements/1.1/">Sinclair, Ian, 1938-</creator>
+<type xmlns="http://purl.org/dc/elements/1.1/">text</type>
+<publisher xmlns="http://purl.org/dc/elements/1.1/">Philadelphia, PA : Jessica Kingsley Publishers,</publisher>
+<date xmlns="http://purl.org/dc/elements/1.1/">2007.</date>
+<language xmlns="http://purl.org/dc/elements/1.1/">eng</language>
+<description xmlns="http://purl.org/dc/elements/1.1/">Includes bibliographical references (p. 137) and indexes.</description>
+<description xmlns="http://purl.org/dc/elements/1.1/">Introducing the report -- How the studies were done -- Delivering care services : the ideal and the reality -- Costs and the way they vary.</description>
+<subject xmlns="http://purl.org/dc/elements/1.1/">Children--Services for--Great Britain.</subject>
+<subject xmlns="http://purl.org/dc/elements/1.1/">Social service--Great Britain--Costs.</subject>
+<identifier xmlns="http://purl.org/dc/elements/1.1/">http://www.loc.gov/catdir/toc/ecip0620/2006027891.html</identifier>
+<identifier xmlns="http://purl.org/dc/elements/1.1/">URN:ISBN:9781843104964 (pbk. : alk. paper)</identifier>
+<identifier xmlns="http://purl.org/dc/elements/1.1/">URN:ISBN:1843104962 (pbk. : alk. paper)</identifier>
+</srw_dc:dc> 

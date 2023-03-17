@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rel="http://purl.org/vocab/relationship/"
+    xmlns:npg="http://ns.nature.com/terms/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:crm-owl="http://purl.org/NET/crm-owl#"
+    xmlns:bio="http://purl.org/vocab/bio/0.1/"
+    xmlns:conf="http://lodview.it/conf#"
+    xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+    xmlns:ibc="http://dati.ibc.it/ibc/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:ods="http://lod.xdams.org/ontologies/ods/"
+    xmlns:frbr="http://purl.org/vocab/frbr/core#"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:a-ip="https://w3id.org/arco/ontology/immovable-property/"
+    xmlns:arco="https://w3id.org/arco/ontology/arco/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:bibleontology="http://bibleontology.com/property#"
+    xmlns:cis="http://dati.beniculturali.it/cis/"
+    xmlns:gml="http://www.opengis.net/gml/"
+    xmlns:core="https://w3id.org/arco/ontology/core/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:cov="https://w3id.org/italia/onto/COV/"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:l0="https://w3id.org/italia/onto/l0/"
+    xmlns:aemetonto="http://aemet.linkeddata.es/ontology/"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:po="http://purl.org/ontology/po/"
+    xmlns:a-cat="https://w3id.org/arco/ontology/catalogue/"
+    xmlns:crm="http://erlangen-crm.org/current/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:a-cc="https://w3id.org/arco/ontology/cataloguing-campaign/"
+    xmlns:muninn="http://rdf.muninn-project.org/ontologies/documents#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:a-ce="https://w3id.org/arco/ontology/cultural-event/"
+    xmlns:skos-xl="http://www.w3.org/2008/05/skos-xl#"
+    xmlns:bmuseum="http://collection.britishmuseum.org/id/ontology/"
+    xmlns:a-dd="https://w3id.org/arco/ontology/denotative-description/"
+    xmlns:claros="http://purl.org/NET/Claros/vocab#"
+    xmlns:a-cd="https://w3id.org/arco/ontology/context-description/"
+    xmlns:prism21="http://prismstandard.org/namespaces/basic/2.1/"
+    xmlns:a-loc="https://w3id.org/arco/ontology/location/"
+    xmlns:yago="http://dbpedia.org/class/yago/"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:shoah="http://dati.cdec.it/lod/shoah/"
+    xmlns:arco-res="https://w3id.org/arco/resource/"
+    xmlns:metalex="http://www.metalex.eu/metalex/2008-05-02#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rso="http://www.researchspace.org/ontology/"
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:crm120111="http://erlangen-crm.org/120111/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:bbc="http://www.bbc.co.uk/ontologies/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ocd="http://dati.camera.it/ocd/"
+    xmlns:oad="http://lod.xdams.org/reload/oad/"
+    xmlns:schema-org="http://schema.org/"
+    xmlns:clv="https://w3id.org/italia/onto/CLV/"
+    xmlns:dbpedia="http://dbpedia.org/resource/"
+    xmlns:cpv="https://w3id.org/italia/onto/CPV/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:cdoc="http://www.cidoc-crm.org/cidoc-crm#"
+    xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
+    xmlns:pico="http://data.cochrane.org/ontologies/pico/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:lgdo="http://linkedgeodata.org/ontology/capital" > 
+  <rdf:Description rdf:about="https://w3id.org/arco/resource/HistoricOrArtisticProperty/1201323427">
+    <arco:catalogueNumber>01323427</arco:catalogueNumber>
+    <pico:materialAndTechnique>carta fatta a mano intelata</pico:materialAndTechnique>
+    <a-dd:hasCulturalPropertyType rdf:resource="https://w3id.org/arco/resource/CulturalPropertyType/91882e91924ff908210a9f2339174f78"/>
+    <dc:subject rdf:resource="http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva"/>
+    <pico:materialAndTechnique>oro</pico:materialAndTechnique>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/HistoricOrArtisticProperty"/>
+    <a-cd:hasPreferredAuthor rdf:resource="https://w3id.org/arco/resource/Agent/cb84e973225845c1e07990ec6634cb0e"/>
+    <dc:creator rdf:resource="https://w3id.org/arco/resource/Agent/cb84e973225845c1e07990ec6634cb0e"/>
+    <a-cd:title>Erba 2</a-cd:title>
+    <a-cd:historicalInformation>Ambrosini è stato un artista e un intellettuale, tenace difensore della natura e dei diritti umani. Come intellettuale ha svolto la propria attività scientifica all'Università della Tuscia e in diversi continenti promuovendo l'interculturalità, la consapevolezza ecologica, la costruzione di una cultura e una prassi della pace tra gli esseri umani. Come artista, sin dagli anni Sessanta è stato vicino alle avanguardie filosoficamente più avvertite e socialmente più impegnate. L'opera di Ambrosini parla pertanto un linguaggio artistico astratto, che evoca però la natura attraverso i materiali e la costruzione di forme organiche</a-cd:historicalInformation>
+    <rdfs:label xml:lang="it">Erba 2 (dipinto su tela) di Ambrosini Giovanni Battista (sec. XXI)</rdfs:label>
+    <dc:coverage>Viterbo (VT)</dc:coverage>
+    <dc:identifier>1201323427</dc:identifier>
+    <a-dd:hasMaterialOrTechnique rdf:resource="https://w3id.org/arco/resource/TechnicalCharacteristic/oro"/>
+    <pico:preview rdf:resource="http://www.sigecweb.beniculturali.it/images/fullsize/ICCD1023446/ICCD12276135_Erba%202.jpg"/>
+    <dc:description>Dipinto realizzato con carta fatta a mano intelata, oro e pigmenti</dc:description>
+    <a-loc:hasCulturalInstituteOrSite rdf:resource="https://w3id.org/arco/resource/CulturalInstituteOrSite/9274ea8f048f334eb41ce909b1d47a5b"/>
+    <core:description>Dipinto realizzato con carta fatta a mano intelata, oro e pigmenti</core:description>
+    <a-cd:hasTitle rdf:resource="https://w3id.org/arco/resource/Title/1201323427-erba-2"/>
+    <dc:title>Erba 2 (dipinto su tela)</dc:title>
+    <arco:hasCataloguingAgency rdf:resource="https://w3id.org/arco/resource/Agent/91bfff326e1a924901c9ce930b9f546c"/>
+    <a-cd:hasAuthor rdf:resource="https://w3id.org/arco/resource/Agent/cb84e973225845c1e07990ec6634cb0e"/>
+    <a-cd:hasAuthorshipAttribution rdf:resource="https://w3id.org/arco/resource/PreferredAuthorshipAttribution/1201323427-1"/>
+    <a-dd:hasMeasurementCollection rdf:resource="https://w3id.org/arco/resource/MeasurementCollection/1201323427-1"/>
+    <foaf:depiction rdf:resource="http://www.sigecweb.beniculturali.it/images/fullsize/ICCD1023446/ICCD12276135_Erba%202.jpg"/>
+    <dcterms:spatial rdf:resource="https://w3id.org/arco/resource/Address/2b21784ac2e9ecb0a62a990b75193648"/>
+    <a-cd:hasAcquisition rdf:resource="https://w3id.org/arco/resource/Acquisition/1201323427-acquisition-1"/>
+    <dc:source rdf:resource="https://w3id.org/arco/resource/CatalogueRecordOAC/1201323427"/>
+    <dc:format rdf:resource="https://w3id.org/arco/resource/MeasurementCollection/1201323427-1"/>
+    <a-cd:hasLegalSituation rdf:resource="https://w3id.org/arco/resource/LegalSituation/1201323427-legal-situation-proprieta-ente-pubblico-non-territoriale"/>
+    <clv:hasGeometry rdf:resource="https://w3id.org/arco/resource/Geometry/1201323427-geometry-point"/>
+    <dc:subject></dc:subject>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/1201323427-cataloguing-agency"/>
+    <dcterms:bibliographicCitation>bibliografia specifica: Cristallini E./ Federici E - 2013</dcterms:bibliographicCitation>
+    <a-cd:hasDating rdf:resource="https://w3id.org/arco/resource/Dating/1201323427-1"/>
+    <dc:rights>proprietà Ente pubblico non territoriale</dc:rights>
+    <rdfs:label xml:lang="en">Erba 2 (dipinto su tela) by Ambrosini Giovanni Battista (sec. XXI)</rdfs:label>
+    <rdfs:comment>dipinto su tela</rdfs:comment>
+    <a-dd:hasTechnicalStatus rdf:resource="https://w3id.org/arco/resource/CulturalEntityTechnicalStatus/1201323427"/>
+    <a-dd:hasMaterialOrTechnique rdf:resource="https://w3id.org/arco/resource/TechnicalCharacteristic/pigmenti"/>
+    <a-cat:isDescribedByCatalogueRecord rdf:resource="https://w3id.org/arco/resource/CatalogueRecordOAC/1201323427"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1201323427-bibliography-1"/>
+    <arco:regionIdentifier>12</arco:regionIdentifier>
+    <pico:author rdf:resource="https://w3id.org/arco/resource/Agent/cb84e973225845c1e07990ec6634cb0e"/>
+    <dc:date>2004-2004</dc:date>
+    <a-dd:hasConservationStatus rdf:resource="https://w3id.org/arco/resource/ConservationStatus/1201323427-conservation-status-1"/>
+    <dc:type>dipinto su tela</dc:type>
+    <dc:source rdf:resource="https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1201323427"/>
+    <a-loc:hasCulturalPropertyAddress rdf:resource="https://w3id.org/arco/resource/Address/2b21784ac2e9ecb0a62a990b75193648"/>
+    <arco:uniqueIdentifier>1201323427</arco:uniqueIdentifier>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/MovableCulturalProperty"/>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/1201323427-photographic-documentation-1"/>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/1201323427-heritage-protection-agency"/>
+    <pico:materialAndTechnique>pigmenti</pico:materialAndTechnique>
+    <arco:hasHeritageProtectionAgency rdf:resource="https://w3id.org/arco/resource/Agent/19ed5b9265d3fddd0942e94b264b8c57"/>
+    <a-loc:hasTimeIndexedTypedLocation rdf:resource="https://w3id.org/arco/resource/TimeIndexedTypedLocation/1201323427-current"/>
+    <a-dd:hasMaterialOrTechnique rdf:resource="https://w3id.org/arco/resource/TechnicalCharacteristic/carta-fatta-a-mano-intelata"/>
+    <dcterms:isReferencedBy rdf:resource="https://w3id.org/arco/resource/CatalogueRecordOAC/1201323427"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<collezione>
+	<oggetto n="1">
+		<titolo> </titolo>
+		<autore></autore>
+		<licenza>
+			<URL></URL>
+		</licenza>
+		<formati></formati>
+		<analisi></analisi>
+		<lingua></lingua>
+		<parole-chiave>
+			<soggetto vocabolario="LC" xml:id="sogg1"></soggetto>
+		</parole-chiave>
+		<descrizione-fonte>
+			<fonte></fonte>
+		</descrizione-fonte>
+		<identificativo></identificativo>
+	</oggetto>
+</collezione>

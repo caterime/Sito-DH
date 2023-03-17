@@ -1,0 +1,102 @@
+body{
+
+	}
+title{
+	color: orangered;
+	margin-left: 5rem;
+	margin-top: 2rem;
+	}
+
+h1{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+    text-align: center;
+    color:black;
+    font-size: 60px !important;
+    padding: 15px;
+	}
+h2{
+	color:black;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	text-align: center;
+	font-size:40px;
+	}
+h3{
+	font-family:'Quicksand', sans-serif;
+	}
+h4{
+	color:black;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	font-style: italic !important;
+	font-size: 17px;
+	}
+
+#veditutti{
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	font-size: 14px;
+	margin-left: 12rem;
+	}
+
+#titolo{
+	background-color: #eef343;
+	margin-top:2px;
+	margin-bottom:1px;
+	height:100px;
+	}
+
+#Navbar1{
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	padding:3px 0px 0px 0px;
+	margin-top:0px;
+	}
+
+#corpo{
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	margin-top:10px;
+	margin-bottom: 10px;
+	}
+
+#cardtesto {
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	background-color: none;
+	border-color: none !important;
+	}
+#carditem {
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	background-color: none;
+	border-color: none !important;
+	}
+a {
+	color:#000000;
+  }
+
+footer {
+	color:black;
+	background-color: whitesmoke;
+	height:70px;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 0.5;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	padding:15px 0 0 15px;
+	   }
+
+button {
+	outline-color: transparent;
+	   }
+div {
+	color:#000000;
+	}
+p {
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+  white-space: nowrap !important;
+  }
+li {
+	color:#000000;
+   }
+table {
+	color:#000000;
+	  }
+div {
+
+	}
