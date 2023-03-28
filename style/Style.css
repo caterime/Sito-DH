@@ -1,52 +1,48 @@
-body{
-
-	}
-title{
-	color: orangered;
-	margin-left: 5rem;
-	margin-top: 2rem;
+body{position: relative;
 	}
 
 h1{
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
-    text-align: center;
-    color:black;
-    font-size: 60px !important;
-    padding: 15px;
+	color:black;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	padding: 15px;
+	text-align: center;
+	font-size: 50px !important;
 	}
 h2{
 	color:black;
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
-	text-align: center;
-	font-size:40px;
+	font-size: 27px;
 	}
 h3{
-	font-family:'Quicksand', sans-serif;
-	}
-h4{
-	color:black;
-	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
-	font-style: italic !important;
-	font-size: 17px;
-	}
-
-#veditutti{
-	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
-	font-size: 14px;
-	margin-left: 12rem;
+	color:#000000;
+	font-size: 5rem;
 	}
 
 #titolo{
 	background-color: #eef343;
 	margin-top:2px;
-	margin-bottom:1px;
+	margin-bottom: 1px;
 	height:100px;
+	}
+#titolo-img {
+	margin-top:2px;
+	margin-bottom: 1px;
+	height:565px;
+	}
+#bioimgtext{
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	font-size: 15px;
+	}
+#textbio{
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	font-size: 25px;
 	}
 
 #Navbar1{
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
 	padding:3px 0px 0px 0px;
 	margin-top:0px;
+	height: 60px;
 	}
 
 #corpo{
@@ -55,16 +51,30 @@ h4{
 	margin-bottom: 10px;
 	}
 
-#cardtesto {
+#card {
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
 	background-color: none;
-	border-color: none !important;
+	border-color: none;
 	}
-#carditem {
-	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
-	background-color: none;
-	border-color: none !important;
+
+#trafilettodx {
+    margin-left: 0px !important;
 	}
+#scrollcontainer{
+    height:15rem;
+	overflow-y: scroll
+	}
+
+pre {
+    color:indigo;
+    padding:20px;
+	}
+
+span {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	outline:none;
+	 }
+
 a {
 	color:#000000;
   }
@@ -89,7 +99,6 @@ div {
 	}
 p {
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
-  white-space: nowrap !important;
   }
 li {
 	color:#000000;

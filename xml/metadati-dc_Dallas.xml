@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collezione xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="collezione"> 
+	<item n="2" xml:id="collezione-GG00650023"> 
+		<genere>Dipinto; Pittura</genere>
+		<titolo-item>Dallas</titolo-item>
+		<immagine riferimenti="Sito DH/img/01/02Dallas.jpg"/>
+		
+		<metadati>
+			<dc:title>Dallas</dc:title>
+			<dc:creator href="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-">Gianfranco Goberti</dc:creator>
+			<dc:date>1966</dc:date>
+			<dc:identifier tipo="digital">file:///Users/caterinarimensi/Desktop/Sito%20DH/img/01/02Dallas.jpg</dc:identifier>
+			<dc:identifier tipo="permalink"></dc:identifier>
+			<dc:format tipo="dimensioni">height 100 cm; width 70 cm</dc:format>
+			<dc:format tipo="tecnica">Olio su tela</dc:format>
+			<dc:format tipo="style">Nuova Figurazione</dc:format>
+			<dc:identifier>D548-S-OG-02</dc:identifier>
+			<dc:subject>
+				<termine n="1">Opera d'arte</termine>
+				<termine n="2">Arte Contemporanea</termine>
+				<termine n="3">Pittura</termine>
+				<termine n="4">Gianfranco Goberti</termine>
+				<termine n="5">Dipinto</termine>
+				<termine n="6">Nuova Figurazione</termine>
+			</dc:subject>
+			<dc:description>Dipinto "Dallas" realizzato da Gianfranco Goberti nel 1966, periodo giovanile in cui era ancora fortemente influenzato dalla Nuova Figurazione e da Francis Bacon. Figura davanti allo specchio, accanto ad una poltrona a righe.</dc:description>
+			<dc:format>JPG</dc:format>
+			<dc:rights>Diritti riservati: Studio d'Arte Giranfranco Goberti</dc:rights>
+			<dc:language>It</dc:language>
+			<dc:coverage>Ferrara</dc:coverage>
+			<dc:publisher>Caterina Rimensi - Alma Mater Studiorum, Università di Bologna</dc:publisher>
+			<dc:creation tipo="data">2023</dc:creation>
+		</metadati>
+	</item>
+</collezione>

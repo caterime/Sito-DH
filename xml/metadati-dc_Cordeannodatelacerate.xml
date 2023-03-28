@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collezione xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="collezione"> 
+	<item n="20" xml:id="collezione-GG00650023"> 
+		<genere>Dipinto; Pittura</genere>
+		<titolo-item>Corde annodate, lacerate</titolo-item>
+		<immagine riferimenti="Sito DH/img/01/09Corde-annodate-lacerate2.jpg"/>
+		
+		<metadati>
+			<dc:title>Corde annodate, lacerate</dc:title>
+			<dc:creator href="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-">Gianfranco Goberti</dc:creator>
+			<dc:date>1984</dc:date>
+			<dc:identifier tipo="digital">file:///Users/caterinarimensi/Desktop/Sito%20DH/img/01/09Corde-annodate-lacerate2.jpg</dc:identifier>
+			<dc:identifier tipo="permalink"></dc:identifier>
+			<dc:format tipo="dimensioni">height 90 cm; width 166 cm</dc:format>
+			<dc:format tipo="tecnica">Tecnica mista su carta su legno</dc:format>
+			<dc:format tipo="style">Metafisica; Iperrealismo</dc:format>
+			<dc:identifier>D548-S-C-03</dc:identifier>
+			<dc:subject>
+				<termine n="1">Opera d'arte</termine>
+				<termine n="2">Arte Contemporanea</termine>
+				<termine n="3">Pittura</termine>
+				<termine n="4">Gianfranco Goberti</termine>
+				<termine n="5">Dipinto</termine>
+				<termine n="6">Metafisica</termine>
+				<termine n="7">Iperrealismo</termine>
+			</dc:subject>
+			<dc:description>Dipinto "Corde annodate, lacerate" realizzato da Gianfranco Goberti nel 1984, periodo in cui è molto influenzato dalle opere di Domenico Gnoli, orientato verso uno stile metafisico e iperrealista.</dc:description>
+			<dc:format>JPG</dc:format>
+			<dc:rights>Diritti riservati: Studio d'Arte Giranfranco Goberti</dc:rights>
+			<dc:language>It</dc:language>
+			<dc:coverage>Ferrara</dc:coverage>
+			<dc:publisher>Rimensi, Caterina - Alma Mater Studiorum, Università di Bologna</dc:publisher>
+			<dc:creation tipo="data">2023</dc:creation>
+		</metadati>
+	</item>
+</collezione>
