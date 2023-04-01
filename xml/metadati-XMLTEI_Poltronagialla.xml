@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/teilite.rng" type="xml"?>
+<TEI>
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+                <title>Poltrona gialla</title>
+				<autor ref="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-" xml:id="GG">Gianfranco Goberti (1939-2023)</autor>
+				<principal xml:id="RC">Rimensi, Caterina</principal>
+			<respStmt>
+				<resp>Digitalizzazione</resp>
+    			<name xml:id="RC">Rimensi, Caterina</name>
+			</respStmt>
+            </titleStmt>
+            <publicationStmt>
+				<distributor>Studio d'Arte Gianfranco Goberti</distributor>
+				<availability><p>Diritti riservati: Studio d'Arte Gianfranco Goberti</p></availability>
+				<date when="2002">2002</date>
+				<pubPlace ref="https://goo.gl/maps/spgk2XjY4oub5VBh7">Ferrara</pubPlace>
+				<idno type="URL">file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaPoltronagialla.html</idno>
+            </publicationStmt>
+            <sourceDesc>
+				<p>Digitalizzazione di un'opera d'arte fisica</p>
+                <bibl>Dipinto "Poltrona gialla" realizzato da Gianfranco Goberti nel 2002, periodo in cui è molto influenzato dalle opere di Domenico Gnoli, orientato verso uno stile metafisico e iperrealista.</bibl>
+			</sourceDesc>
+			<extent>72.827 bytes</extent>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="it">
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

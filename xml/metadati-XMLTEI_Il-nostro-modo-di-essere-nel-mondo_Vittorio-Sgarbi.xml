@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/teilite.rng" type="xml"?>
+<TEI>
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+                <title>Il nostro modo di essere nel mondo</title>
+                <author xml:id="SV" href="https://viaf.org/viaf/64083221/#Sgarbi,_Vittorio,_1952-....">Sgarbi, Vittorio</author>
+                <principal xml:id="RC">Rimensi, Caterina</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>Testo presente dell'edizione a stampa del catalogo della mostra di Gianfranco Goberti "Evasioni Coatte" alla Galleria BezaArte (Ferrara), 2000.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>L'Artiere Edizioni Italia</publisher>
+                <pubPlace>Ferrara, Italia</pubPlace>
+                <date>2000</date>
+                <biblioScope type="page">p. 1</biblioScope>
+            </publicationStmt>
+            <noteStmt>
+                <p>Testo critico di Vittorio Sgarbi presentate nel catalogo della mostra "Evasioni Coatte" (BezaArte, Ferrara, 2000).</p>
+            </noteStmt>
+            <sourceDesc>
+                <p>Digitalizzazione di un testo critico da un catalogo cartaceo</p>
+            </sourceDesc>
+            <extent>9.535 byte</extent>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="it">
+        <head><p>"Il nostro modo di essere al mondo"</p>
+            <p>Vittorio Sgarbi</p>
+        </head>
+        <body>
+            <p>L’uomo non ha mai potuto allontanarsi dall’arte anche quando non era del tutto consapevole della sua importanza.</p>
+            <p>Siccome <lb/>l’uomo tende a conservare ciò che è di vantaggio pratico alla sua vita ordinaria è evidente che l’arte sia sopravvissuta fino ai nostri<lb/> giorni perché considerata di una certa utilità. L’opera d’arte non può lasciarci indifferenti, deve dialogare con le nostre coscienze<lb/>, le nostre convinzioni, per arricchirle, ed eventualmente modificarle.</p>
+            <p>Ritengo che la pittura di <name type="artist" subtype="painter" xml:id="GG" ref="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-">Gianfranco Goberti</name> riesca a farci<lb/> riesaminare il nostro modo di essere nel mondo. Ha trovato trovato da tempo i suoi soggetti prediletti nelle stoffe, nei tessuti grezzi,<lb/> nelle corde, tutti inquadrati in particolari ingrandimenti come la macrofotografia. Chi ammira i suoi <rs type="work of art" subtype="painting">Guanto da bagno</rs>,<lb/> <rs type="work of art" subtype="painting">Lavaschiena</rs>, <rs type="work of art" subtype="painting">Grande nodo</rs>, non tarderà a riconoscere in essi l’evidente matrice di <name type="artist" subtype="painter" ref="https://viaf.org/viaf/59358566/#Gnoli,_Domenico,_1933-1970">Domenico Gnoli</name>.</p>
+            <p>Come <name type="artist" subtype="painter" ref="https://viaf.org/viaf/59358566/#Gnoli,_Domenico,_1933-1970"><choice><orig>Gnoli</orig><reg>Gnoli, Domenico</reg></choice></name>, <name type="artist" subtype="painter" xml:id="GG" ref="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-"><choice><orig>Goberti</orig><reg>Goberti, Gianfranco</reg></choice></name><lb/> riproduce con meticolosa precisione le trame strutturali di oggetti d’uso comune, riuscendo quasi in esiti più realistici, nella resa<lb/> delle irregolarità della materia, di quanto non facesse lo stesso <name type="artist" subtype="painter" ref="https://viaf.org/viaf/59358566/#Gnoli,_Domenico,_1933-1970"><choice><orig>Gnoli</orig><reg>Gnoli, Domenico</reg></choice></name>.</p>
+            <p>L’arte di <name type="artist" subtype="painter" xml:id="GG" ref="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-"><choice><orig>Goberti</orig><reg>Goberti, Gianfranco</reg></choice></name> è l’elemento che dovrebbe suscitare nuovo<lb/> interesse nel nostro modo di vedere e di convivere con ciò che ci sta attorno? Forse la sua abilità tecnica? Risulta assolutamente<lb/> imprescindibile dalle intenzioni dell’artista la capacità riproduttiva che è solo lo strumento operativo di un discorso di più ampia<lb/> portata.</p>
+            <p>In realtà, il tema dominante della pittura di <name type="artist" subtype="painter" xml:id="GG" ref="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-">Goberti</name> è il rapporto tra l’arte e ciò che tradizionalmente è stato ritenuto il suo<lb/> oggetto per antonomasia: la natura. Più ci si sforza di riprodurre con la massima fedeltà possibile le cose che comunemente<lb/> abbiamo davanti agli occhi, compatibilmente ai mezzi tecnici messi a disposizione dell’artista, più le cose riprodotte risultano<lb/> estranee al loro contesto d’origine.</p>
+            <p>Il <rs type="work of art" subtype="painting">Guanto</rs> e il <rs type="work of art" subtype="painting">Lavaschiena</rs> di <name type="artist" subtype="painter" xml:id="GG" ref="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-"><choice><orig>Goberti</orig><reg>Goberti, Gianfranco</reg></choice></name> sono perfetti fino all’ossessione, incredibilmente simili<lb/> nell’aspetto agli oggetti reali, addirittura più veri del vero. Eppure non ci sogneremmo mai di scambiarli per oggetti corrispondenti:<lb/> i quadri di <name type="artist" subtype="painter" xml:id="GG" ref="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-"><choice><orig>Goberti</orig><reg>Goberti, Gianfranco</reg></choice></name> sono una cosa, la realtà è un’altra.</p>
+            <p>Non solo. Più l’artista analizza nel dettaglio la struttura dell’oggetto, cercando<lb/> di andare oltre i confini delle apparenze convenzionali, più l’oggetto ci risulta estraneo. Il fatto è che la riproduzione, nel momento<lb/> stesso in cui si offre ai nostri occhi, si pone sempre in un campo concettuale differente, quasi contrastante rispetto alla natura,<lb/> malgrado che da essa ritrovi diretta ispirazione.</p>
+            <p>In questo campo l’arte, come riproduzione della natura è soggetta a due grandi<lb/> leggi: quella formale, in quanto essa comunica attraverso le forme che simulano le naturali, e quella psicologica, in quanto la<lb/> semplice scelta di un oggetto (non solo la modalità espressiva preferita per la sua riproduzione) riflette precisi stati d’animo<lb/>, coscienza e mentalità dell’autore.</p>
+            <p>L’arte, insomma, ha sempre il suo linguaggio specifico e una sostanza umana anche quando<lb/> vorrebbe mimitezzarsi nella natura. E’ questa la lezione, la revisione nel nostro modo di essere nel mondo che ci propone<lb/> <name type="artist" subtype="painter" xml:id="GG" ref="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-">Gianfranco Goberti</name>. Vi sembra poco?</p>
+        </body>
+    </text>
+</TEI>

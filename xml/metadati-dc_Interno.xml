@@ -7,12 +7,12 @@
 		
 		<metadati>
 			<dc:title>Interno</dc:title>
-			<dc:creator href="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-">Gianfranco Goberti</dc:creator>
+			<dc:creator href="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-" xml:id="GG">Gianfranco Goberti</dc:creator>
 			<dc:date>1989</dc:date>
-			<dc:identifier tipo="digital">file:///Users/caterinarimensi/Desktop/Sito%20DH/img/01/04-02Interno.jpg</dc:identifier>
-			<dc:format tipo="dimensioni">height 100 cm; width 80 cm</dc:format>
+			<dc:identifier tipo="digitale">file:///Users/caterinarimensi/Desktop/Sito%20DH/img/01/04-02Interno.jpg</dc:identifier>
+			<dc:format tipo="dimensioni">altezza 100 cm; larghezza 80 cm</dc:format>
 			<dc:format tipo="tecnica">Olio su tela</dc:format>
-			<dc:format tipo="style">Metafisica; Iperrealismo</dc:format>
+			<dc:format tipo="stile">Metafisica; Iperrealismo</dc:format>
 			<dc:identifier>D548-S-P-07</dc:identifier>
 			<dc:subject>
 				<termine n="1">Opera d'arte</termine>
@@ -28,8 +28,9 @@
 			<dc:rights>Diritti riservati: Studio d'Arte Giranfranco Goberti</dc:rights>
 			<dc:language>It</dc:language>
 			<dc:coverage>Ferrara</dc:coverage>
-			<dc:publisher>Rimensi, Caterina - Alma Mater Studiorum, Università di Bologna</dc:publisher>
-			<dc:creation tipo="data">2023</dc:creation>
+			<dc:creation>1989</dc:creation>
+			<dc:contributor xml:id="RC">Rimensi, Caterina - Alma Mater Studiorum, Università di Bologna</dc:contributor>
+			<dc:creation tipo="digitale">2023</dc:creation>
 		</metadati>
 	</item>
 </collezione>

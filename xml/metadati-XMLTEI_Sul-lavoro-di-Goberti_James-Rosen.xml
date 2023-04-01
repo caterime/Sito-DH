@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/teilite.rng" type="xml"?>
+<TEI>
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+                <title>Sul lavoro di Gianfranco Goberti</title>
+                <author xml:id="RJ" href="https://viaf.org/viaf/47614769/#Rosen,_James_1933-">Rosen, James</author>
+                <principal xml:id="RC">Rimensi, Caterina</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>Edizione a stampa del catalogo della mostra di Gianfranco Goberti "Quattro Stanze" a Delizia Estense del Verginese (Portomaggiore, FE), maggio 2002.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Litografica Felloni</publisher>
+                <pubPlace>Portomaggiore, Ferrara, Italia</pubPlace>
+                <date>2002</date>
+                <biblioScope type="page">p. 22</biblioScope>
+            </publicationStmt>
+            <noteStmt>
+                <p>Testo critico di James Rosen del 1986 pubblicato nel catalogo della mostra "Quattro Stanze" (Delizia Estense del Verginese, Portomaggiore, FE), maggio 2002.</p>
+            </noteStmt>
+            <sourceDesc>
+                <p>Digitalizzazione di un testo critico da un catalogo cartaceo</p>
+            </sourceDesc>
+            <extent>216.246 bytes</extent>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="it">
+        <head>
+            <p>"Sul lavoro di Gianfranco Goberti"</p>  
+        </head>
+        <body>
+            <p>Le anomalie cromatiche e non-cromatiche di <name type="artist" subtype="painter" ref="https://viaf.org/viaf/34459370/#L%C3%A9ger,_Fernand,_1881-1955.">Léger</name>, i colori pastello della “<rs type="archaeological site" subtype="place" ref="">Villa<lb/> dei Misteri</rs>” a <rs type="palce" subtype="city" ref="https://www.google.com/maps/place/80045+Pompei+NA/@40.7466183,14.4761726,14z/data=!3m1!4b1!4m6!3m5!1s0x133bbc95914ba4ef:0xd2d18a72aeb414a4!8m2!3d40.7461572!4d14.4989344!16zL20vMG1nbXo">Pompei</rs>, l’accuratezza nei bronzi africani di <rs type="place" subtype="city" ref="https://www.google.com/maps/place/Ife,+Osun,+Nigeria/@7.4784133,4.4599886,12z/data=!3m1!4b1!4m6!3m5!1s0x103837643f7c9463:0xdf9c1547fe8ff6d8!8m2!3d7.490462!4d4.5521274!16zL20vMDIzdjdw">Ife</rs>, il gioco <rs type="art style" ref="">rococò</rs><lb/> nelle superficie di <name type="artist" subtype="painter" ref="https://viaf.org/viaf/46882028/#Watteau,_Antoine,_1684-1721.">Watteau</name>.</p><lb/>
+            <lb/>
+            <p><name type="artist" subtype="painter" ref="https://viaf.org/viaf/34459370/#L%C3%A9ger,_Fernand,_1881-1955.">Léger</name>? <rs type="city" ref="https://www.google.com/maps/place/80045+Pompei+NA/@40.7466183,14.4761726,14z/data=!3m1!4b1!4m6!3m5!1s0x133bbc95914ba4ef:0xd2d18a72aeb414a4!8m2!3d40.7461572!4d14.4989344!16zL20vMG1nbXo">Pompei</rs>? <rs type="city" ref="https://www.google.com/maps/place/Ife,+Osun,+Nigeria/@7.4784133,4.4599886,12z/data=!3m1!4b1!4m6!3m5!1s0x103837643f7c9463:0xdf9c1547fe8ff6d8!8m2!3d7.490462!4d4.5521274!16zL20vMDIzdjdw">Ife</rs>? <name type="artist" subtype="painter" ref="https://viaf.org/viaf/46882028/#Watteau,_Antoine,_1684-1721.">Watteau</name>?</p><lb/>
+            <p>Troppo diversi? Cose troppo disparate? Che importa? <name type="artist" subtype="painter" xml:id="GG" ref="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-">Gianfranco Goberti</name><lb/> instaura la continuità della vita attraverso i tempi dell’arte. <rs type="person">Lui</rs> costruisce<lb/> una mappa del territorio e la mappa stessa diventa territorio. Dipinge colori e linee<lb/> come un cartografo disegna un paese.</p><lb/>
+            <p>Ogni linea genera lo spazio che la circonda. Un insieme di linee (o un intervallo)<lb/> ci da l’illusione dello spazio. Ogni variazione di colore di da una variazione nel<lb/> ritmo dello spazio.</p><lb/>
+            <lb/>
+            <p>In una mappa autostradale i colori sono solo informazioni, come il verde, che è<lb/> solo un segno per <emph>“autostrada”</emph>, nei dipinti di <name type="artist" subtype="painter" xml:id="GG" ref="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-"><choice><orig>Goberti</orig><reg>Goberti, Gianfranco</reg></choice></name> i colori ci danno l’idea<lb/> concreta del movimento e della velocità.</p><lb/>
+            <p>I colori, le linee rivelano però anche volumi illusori senza l’alternanza e ri-<lb/>direzione negli intervalli fra i colori non c’è infatti un casacca in <name type="artist" subtype="painter" ref="https://viaf.org/viaf/46882028/#Watteau,_Antoine,_1684-1721.">Watteau</name>, non<lb/> c’è una camicia in <name type="artist" subtype="painter" xml:id="GG" ref="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-"><choice><orig>Goberti</orig><reg>Goberti, Gianfranco</reg></choice></name> - appunto perché mancherebbe l’illusione di una forma<lb/> per cui è possibile una casacca o una camicia con le sua forme volumetriche.</p><lb/>
+            <lb/>
+            <p>Come Leger, <name type="artist" subtype="painter" xml:id="GG" ref="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-"><choice><orig>Goberti</orig><reg>Goberti, Gianfranco</reg></choice></name> -a <rs type="person">suo</rs> modo- usa il nero e il bianco (colori acromatici)<lb/> dandoci però l’impressione che essi diventino <emph>“cromatici”</emph>. E come negli<lb/> affreschi di <rs type="archaeological site" subtype="place" ref="">Villa dei Misteri</rs>, il colore più tenue diventa il colore più<lb/> rilevante.</p><lb/>
+            <lb/>
+            <p>C’è ancora molto in arrivo da <name type="artist" subtype="painter" xml:id="GG" ref="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-"><choice><orig>Goberti</orig><reg>Goberti, Gianfranco</reg></choice></name>. Proprio ora è di ritorno dalla sua “Isola<lb/> di Cythrea”…</p><lb/>
+            <p>Indecisioni? Disaffezioni? <emph>Nessuna!</emph> Le ispirazioni e le risorse di <name type="artist" subtype="painter" xml:id="GG" ref="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-"><choice><orig>Goberti</orig><reg>Goberti, Gianfranco</reg></choice></name><lb/> nascono da <rs type="person">se stesso</rs>.</p><lb/>
+            <p><rs type="person">Egli</rs> trova però il modo di connetterle con quelle del mondo sugli stessi temi, e<lb/> trova sempre i legami comuni e profondi che sempre ci sono sotto gli strati<lb/> superficiali del tempo.</p><lb/>
+            <lb/>
+            <p><name xml:id="RJ" type="author">James Rosen</name></p><lb/>
+            <lb/>
+            <p><rs type="city" ref="https://www.google.com/maps/place/Ferrara+FE/@44.836232,11.5652461,13z/data=!3m1!4b1!4m6!3m5!1s0x477e4e0bde2b11dd:0x3c3b79ae53712b2e!8m2!3d44.8381237!4d11.619787!16zL20vMGNmZmQ">Ferrara</rs> <rs type="date">novembre 1986</rs></p>
+        </body>
+    </text>
+</TEI>

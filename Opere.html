@@ -40,20 +40,22 @@
   <!-- NAVBAR 1 -->
   <nav class="navbar navbar-expand-sm navbar-light bg-light" id="Navbar1">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><h2 style="font-size: 27px; color:black;">Gianfranco Goberti</h2></a>
+      <a class="navbar-brand" href="#">
+        <h2 id="GG-lato">Gianfranco Goberti</h2>
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="file:///Users/caterinarimensi/Desktop/Sito%20DH/PROG.html" style="margin-left: 2rem;">Home</a>
+            <a class="nav-link active" aria-current="page" href="file:///Users/caterinarimensi/Desktop/Sito%20DH/Gianfranco-Goberti.html" style="margin-left: 2rem;">Home</a>
           </li>
           <li class="nav-item">
-           <a class="nav-link" href="file:///Users/caterinarimensi/Desktop/Sito%20DH/Biografia-Critica.html#" style="color:black !important">Biografia e Critica</a>
+           <a class="nav-link" href="file:///Users/caterinarimensi/Desktop/Sito%20DH/Biografia-Critica.html#">Biografia e Critica</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="file:///Users/caterinarimensi/Desktop/Sito%20DH/Opere.html#" style="color:black !important" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Opere</a>
+            <a class="nav-link dropdown-toggle" href="file:///Users/caterinarimensi/Desktop/Sito%20DH/Opere.html#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Opere</a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="file:///Users/caterinarimensi/Desktop/Sito%20DH/Opere.html#">Tutte</a></li>
             <li><a class="dropdown-item" href="file:///Users/caterinarimensi/Desktop/Sito%20DH/Operegiovanili.html#">Opere giovanili</a></li>
@@ -85,9 +87,9 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12" id="titolo">
-        <nav aria-label="breadcrumb" style="margin-top: 3rem;">
+        <nav aria-label="breadcrumb" style="margin-top: 4rem;">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/PROG.html#">Home</a></li>
+            <li class="breadcrumb-item"><a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/Gianfranco-Goberti.html#" id="link-bread">Home</a></li>
             <li class="breadcrumb-item active" aria-current="page">Opere</li>
           </ol>
         </nav>
@@ -101,37 +103,57 @@
     <!-- CONTAINERS A TEMI -->
     
     <!-- CONTAINER OPERE GIOVANILI -->
-    <div class="container-fluid" id="container1" style="background-color:#707160; height: 52rem; width: 80rem;">
+    <div class="container-fluid" id="container-cards" style="height:52rem;">
       
-      <div class="row" style="height: 6rem; margin-top: none;"><h3 style="font-size: 35px; text-align:center !important; margin-top:3rem; color:#eef343; font-family: 'Quicksand', sans-serif;">
-        OPERE GIOVANILI<h3>   
+      <div class="row" id="row-opere">
+        <h3>
+          OPERE GIOVANILI
+        <h3>   
       </div>
       <div class="row">
-        <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/Operegiovanili.html#" target="_blank" style="font-size: 12px; margin-left: 12rem; color:whitesmoke;" id="veditutti">
-        Vedi tutti</a>
+        <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/Operegiovanili.html#" target="_blank" id="veditutti">
+          Vedi tutti
+        </a>
       </div>
 
       <div class="row">
+
         <div class="col-md-4" id="colonna1-1-01">
-          <div class="card" style="width: 20rem; margin-left: 3rem; margin-top:3rem;" id="card1-1">
-              <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaLimmagine.html#"><img src="img/01/01L-immagine.jpg" class="card-imagine" alt="L'immagine" title="L'immagine" style="width:20rem;">
+          <div class="card" id="card1">
+              <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaLimmagine.html#">
+                <img src="img/01/01L-immagine.jpg" class="card-imagine" id="card-immagine1" alt="L'immagine" title="L'immagine">
               </a>
-            <div class="card-body"><p class="card-text" style="margin-top: 7px;"><h4 style="font-size: 17px;font-style: italic;">L'immagine</h4> 1967, olio su tela, 100x100 cm </p>
+            <div class="card-body">
+              <p class="card-text" style="margin-top: 7px;">
+                <h4><b>L'immagine</b></h4> 
+                1967, olio su tela, 100x100 cm
+              </p>
             </div>
           </div><!-- CARD IMMAGINE 1 -->
         </div>
         <div class="col-md-4" id="colonna2-1-01">
-          <div class="card" style="width: 20rem; margin-left: 2.5rem; margin-top:3rem; " id="card2-1">
-            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaDallas.html#"><img src="img/01/02Dallas.jpg" class="card-imagine" style="width:20rem; " alt="Dalls" title="Dallas (1966)"></a>
+          <div class="card" id="card2">
+            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaDallas.html#">
+              <img src="img/01/02Dallas.jpg" class="card-imagine" id="card-immagine1" alt="Dalls" title="Dallas (1966)">
+            </a>
             <div class="card-body">
-                <p class="card-text" style="margin-top: 7px;"><h4 style="font-size:17px; font-style: italic;">Dallas</h4> 1966, olio su tela, 100x70 cm</p>
+                <p class="card-text" style="margin-top: 7px;">
+                  <h4><b>Dallas</b></h4>
+                  1966, olio su tela, 100x70 cm
+                </p>
             </div>
           </div><!-- CARD IMMAGINE 2 -->
         </div>
         <div class="col-md-4" id="colonna3-1-01">
-          <div class="card" style="width: 20rem; margin-left: 2rem; margin-top:3rem" id="card3-1">
-            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaFigurarispettandoilcanone.html#"><img src="img/01/03Figura-rispettando-il-canone.jpg" class="card-imagine" style="width:20rem" alt="Figura rispettando il canone" title="Figura rispettando il canone"></a>
-            <div class="card-body"><p class="card-text"><h4 style="font-size:17px;font-style: italic;">Figura rispettando il canone</h4> 1966, olio e acrilico su tela, 100x70 cm</p>
+          <div class="card" id="card3">
+            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaFigurarispettandoilcanone.html#">
+              <img src="img/01/03Figura-rispettando-il-canone.jpg" class="card-imagine" id="card-immagine1" alt="Figura rispettando il canone" title="Figura rispettando il canone">
+            </a>
+            <div class="card-body">
+              <p class="card-text">
+                <h4><b>Figura rispettando il canone</b></h4> 
+                1966, olio e acrilico su tela, 100x70 cm
+              </p>
             </div>
           </div><!-- CARD IMMAGINE 3 -->
         </div>  
@@ -139,42 +161,59 @@
     
     </div>
 
-    <hr>
-
     <!-- CONTAINER POLTRONE -->
-    <div class="container-fluid" id="container2" style="background-color: #707160; height: 43rem; width: 80rem; margin-top: none;">
-      <div class="row" style="height: 6rem; margin-top: 2px;"><h3 style="font-size: 35px; text-align:center !important; margin-top:3rem; color:#eef343; font-family: 'Quicksand', sans-serif;">
-          POLTRONE<h3>
+    <div class="container-fluid" id="container-cards" style="height: 43rem;">
+      <div class="row" id="row-opere">
+        <h3>
+          POLTRONE
+        <h3>
       </div>
 
       <div class="row">
-        <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/Poltrone.html" target="_blank" style="font-size: 12px; margin-left: 12rem; color:whitesmoke;" id="veditutti">
-        Vedi tutti</a>
+        <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/Poltrone.html" target="_blank" id="veditutti">
+        Vedi tutti
+        </a>
       </div>
       
       <div class="row">
         <div class="col-md-4" id="colonna1-2-01">
-          <div class="card" style="width: 20rem; margin-left: 3rem; margin-top:3rem;" id="card1-2">
-              <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaChairman1.html#"><img src="img/01/04Chairman1.jpg" class="card-imagine" alt="Chairman" title="Chairman" style="width:20rem;">
+          <div class="card" id="card1">
+              <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaChairman1.html#">
+                <img src="img/01/04Chairman1.jpg" class="card-imagine" id="card-immagine1" alt="Chairman" title="Chairman">
               </a>
-            <div class="card-body"><p class="card-text" style="margin-top: 7px;"><h4 style="font-size: 17px;font-style: italic;">Chairman</h4> 2001, acrilici su tela, 100x80 cm</p>
+            <div class="card-body">
+              <p class="card-text" style="margin-top: 7px;">
+                <h4><b>Chairman</b></h4> 
+                2001, acrilici su tela, 100x80 cm
+              </p>
             </div>
           </div><!-- CARD IMMAGINE 1 -->
         </div>
         
         <div class="col-md-4" id="colonna2-2-01">
-          <div class="card" style="width: 20rem; margin-left: 2.5rem; margin-top:3rem; " id="card1-2">
-            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaPoltrona.html#"><img src="img/01/05Poltrona.jpg" class="card-imagine" style="width:20rem; " alt="Poltrona" title="Poltrona"></a>
+          <div class="card" id="card2">
+            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaPoltrona.html#">
+              <img src="img/01/05Poltrona.jpg" class="card-imagine" id="card-immagine1" alt="Poltrona" title="Poltrona">
+            </a>
             <div class="card-body">
-                <p class="card-text" style="margin-top: 7px;"><h4 style="font-size:17px; font-style: italic;">Poltrona</h4>2001, acrilici su tela, 90x90 cm</p>
+                <p class="card-text" style="margin-top: 7px;">
+                  <h4><b>Poltrona</b></h4>
+                  2001, acrilici su tela, 90x90 cm
+                </p>
             </div>
           </div><!-- CARD IMMAGINE 2 -->
         </div>
 
         <div class="col-md-4" id="colonna3-2-01">
-          <div class="card" style="width: 20rem; margin-left: 2rem; margin-top:3rem" id="card2-1">
-            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaPoltronagialla.html#"><img src="img/01/06Poltrona-gialla.jpg" class="card-imagine" style="width:20rem" alt="Poltrona gialla" title="Poltrona gialla"></a>
-            <div class="card-body"><p class="card-text"><h4 style="font-size:17px;font-style: italic;">Poltrona gialla</h4>2002, acrilici su tela, 50x50 cm</p>
+          <div class="card" id="card3">
+            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaPoltronagialla.html#">
+              <img src="img/01/06Poltrona-gialla.jpg" class="card-imagine" id="card-immagine1" alt="Poltrona gialla" title="Poltrona gialla">
+            </a>
+            <div class="card-body">
+              <p class="card-text">
+                <h4><b>Poltrona gialla</b></h4>
+                2002, acrilici su tela, 50x50 cm
+              </p>
             </div>
           </div><!-- CARD IMMAGINE 3 -->
         </div>  
@@ -183,39 +222,57 @@
     </div>
 
     <!-- CONTAINER CORDE -->
-    <div class="container-fluid" id="container3" style="background-color:#707160; height: 44rem; width: 80rem; margin-top: none;">
-      <div class="row" style="height: 6rem; margin-top: 2px;"><h3 style="font-size: 35px; text-align:center !important; margin-top:3rem; color:#eef343; font-family: 'Quicksand', sans-serif;">
-          CORDE<h3>
+    <div class="container-fluid" id="container-cards" style="height: 44rem;">
+      <div class="row" id="row-opere">
+        <h3>
+          CORDE
+        <h3>
       </div>
 
       <div class="row">
-        <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/Corde.html" target="_blank" style="font-size: 12px; margin-left: 12rem; color:whitesmoke;" id="veditutti">
-        Vedi tutti</a>
+        <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/Corde.html" target="_blank" id="veditutti">
+        Vedi tutti
+      </a>
       </div>
       
       <div class="row">
         <div class="col-md-4" id="colonna1-3-01">
-          <div class="card" style="width: 20rem; margin-left: 3rem; margin-top:3rem;" id="card1-3">
-              <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaCordasucorda.html#"><img src="img/01/07Corda-su-corda1.jpg" class="card-imagine" alt="Corda" title="Corda" style="width:20rem;">
+          <div class="card" id="card1">
+              <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaCordasucorda.html#">
+                <img src="img/01/07Corda-su-corda1.jpg" class="card-imagine" id="card-immagine1" alt="Corda" title="Corda">
               </a>
-            <div class="card-body"><p class="card-text" style="margin-top: 7px;"><h4 style="font-size: 17px;font-style: italic;">Corda su corda</h4> particolare, 1990, tecnica mistra su carta su legno, 97x191 cm </p>
+            <div class="card-body">
+              <p class="card-text" style="margin-top: 7px;">
+                <h4><b>Corda su corda</b></h4> 
+                particolare, 1990, tecnica mistra su carta su legno, 97x191 cm
+              </p>
             </div>
           </div><!-- CARD IMMAGINE 1 -->
         </div>
         
         <div class="col-md-4" id="colonna2-3-01">
-          <div class="card" style="width: 20rem; margin-left: 2.5rem; margin-top:3rem; " id="card2-3">
-            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaCordasenzafine.html#"><img src="img/01/08Corda-senza-fine1.jpg" class="card-imagine" style="width:20rem; " alt="Corda senza fine" title="Corda senza fine"></a>
+          <div class="card" id="card2">
+            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaCordasenzafine.html#">
+              <img src="img/01/08Corda-senza-fine1.jpg" class="card-imagine" id="card-immagine1" alt="Corda senza fine" title="Corda senza fine"></a>
             <div class="card-body">
-                <p class="card-text" style="margin-top: 7px;"><h4 style="font-size:17px; font-style: italic;">Corda senza fine</h4>particolare, 1993, acrilico su tela, 100x240 cm </p>
+              <p class="card-text" style="margin-top: 7px;">
+                <h4><b>Corda senza fine</b></h4>
+                particolare, 1993, acrilico su tela, 100x240 cm 
+              </p>
             </div>
           </div><!-- CARD IMMAGINE 2 -->
         </div>
 
         <div class="col-md-4" id="colonna3-3-01">
-          <div class="card" style="width: 20rem; margin-left: 2rem; margin-top:3rem" id="card3-3">
-            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaCordeannodatelacerate.html#"><img src="img/01/09Corde-annodate-lacerate1.jpg" class="card-imagine" style="width:20rem" alt="Corde annodate" title="Corde annodate"></a>
-            <div class="card-body"><p class="card-text"><h4 style="font-size:17px;font-style: italic;">Corde annodate, lacerate</h4>particolare, 1984, tecnica mista su carta su legno, 90x166 cm</p>
+          <div class="card" id="card3">
+            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaCordeannodatelacerate.html#">
+              <img src="img/01/09Corde-annodate-lacerate1.jpg" class="card-imagine" id="card-immagine1" alt="Corde annodate" title="Corde annodate">
+            </a>
+            <div class="card-body">
+              <p class="card-text">
+                <h4><b>Corde annodate, lacerate</b></h4>
+                particolare, 1984, tecnica mista su carta su legno, 90x166 cm
+              </p>
             </div>
           </div><!-- CARD IMMAGINE 3 -->
         </div>
@@ -223,39 +280,58 @@
     </div>
 
     <!-- CONTAINER PERIODO OPTICAL -->
-    <div class="container-fluid" id="container4" style="background-color:#707160; height: 46rem; width: 80rem; margin-top: none;">
-      <div class="row" style="height: 6rem; margin-top: 2px;"><h3 style="font-size: 35px; text-align:center !important; margin-top:3rem; color:#eef343; font-family: 'Quicksand', sans-serif;">
-      PERIODO OPTICAL<h3>
+    <div class="container-fluid" id="container-cards" style="height: 46rem;">
+      <div class="row" id="row-opere">
+        <h3>
+          PERIODO OPTICAL
+        <h3>
       </div>
 
       <div class="row">
-        <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/Periodo-optical.html#" target="_blank" style="font-size: 12px; margin-left: 12rem; color:whitesmoke;" id="veditutti">
-        Vedi tutti</a>
+        <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/Periodo-optical.html#" target="_blank" id="veditutti">
+          Vedi tutti
+        </a>
       </div>
       
       <div class="row">
         <div class="col-md-4" id="colonna1-4-01">
-          <div class="card" style="width: 20rem; margin-left: 3rem; margin-top:3rem;" id="card1-4">
-              <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaBocca.html#"><img src="img/01/10Bocca.jpg" class="card-imagine" alt="Bocca" title="Bocca" style="width:20rem;">
+          <div class="card" id="card1">
+              <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaBocca.html#">
+                <img src="img/01/10Bocca.jpg" class="card-imagine" id="card-immagine1" alt="Bocca" title="Bocca">
               </a>
-            <div class="card-body"><p class="card-text" style="margin-top: 7px;"><h4 style="font-size: 17px;font-style: italic;">Bocca</h4> 1969, acrilico su tela, 70x70 cm</p>
+            <div class="card-body">
+              <p class="card-text" style="margin-top: 7px;">
+                <h4><b>Bocca</b></h4> 
+                1969, acrilico su tela, 70x70 cm
+              </p>
             </div>
           </div><!-- CARD IMMAGINE 1 -->
         </div>
         
         <div class="col-md-4" id="colonna2-4-01">
-          <div class="card" style="width: 20rem; margin-left: 2.5rem; margin-top:3rem; " id="card2-4">
-            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaPoltronariflessa.html#"><img src="img/01/11Poltrona-riflessa.jpeg" class="card-imagine" style="width:20rem; " alt="Poltrona riflessa" title="Poltrona riflessa"></a>
+          <div class="card" id="card2">
+            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaPoltronariflessa.html#">
+              <img src="img/01/11Poltrona-riflessa.jpeg" class="card-imagine" id="card-immagine1" alt="Poltrona riflessa" title="Poltrona riflessa">
+            </a>
             <div class="card-body">
-                <p class="card-text" style="margin-top: 7px;"><h4 style="font-size:17px; font-style: italic;">Poltrona riflessa</h4> 1972, acrilico su tela, 100x70 cm</p>
+                <p class="card-text" style="margin-top: 7px;">
+                  <h4><b>Poltrona riflessa</b></h4> 
+                  1972, acrilico su tela, 100x70 cm
+                </p>
             </div>
           </div><!-- CARD IMMAGINE 2 -->
         </div>
 
         <div class="col-md-4" id="colonna3-4-01">
-          <div class="card" style="width: 20rem; margin-left: 2rem; margin-top:3rem" id="card3-4">
-            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaGrandeserpente.html#"><img src="img/01/12Grande-serpente.jpg" class="card-imagine" style="width:20rem" alt="Grande serpente" title="Grande serpente"></a>
-            <div class="card-body"><p class="card-text"><h4 style="font-size:17px;font-style: italic;">Grande serpente</h4>1969, acrilico su tela, 70x70 cm </p>
+          <div class="card" id="card3">
+            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaGrandeserpente.html#">
+              <img src="img/01/12Grande-serpente.jpg" class="card-imagine" id="card-immagine1" alt="Grande serpente" title="Grande serpente">
+            </a>
+            <div class="card-body">
+              <p class="card-text">
+                <h4><b>Grande serpente</b></h4>
+                1969, acrilico su tela, 70x70 cm 
+              </p>
             </div>
           </div><!-- CARD IMMAGINE 3 -->
         </div>  
@@ -263,39 +339,58 @@
     </div>
     
     <!-- CONTAINER RITRATTO D'IGNOTO -->
-    <div class="container-fluid" id="container5" style="background-color:#707160; height: 47rem; width: 80rem; margin-top: none;">
-      <div class="row" style="height: 6rem; margin-top: 2px;"><h3 style="font-size: 35px; text-align:center !important; margin-top:3rem; color:#eef343; font-family: 'Quicksand', sans-serif;">
-        RITRATTO D'IGNOTO<h3>
+    <div class="container-fluid" id="container-cards" style="height: 47rem;">
+      <div class="row" id="row-opere">
+        <h3>
+          RITRATTO D'IGNOTO
+        <h3>
       </div>
 
       <div class="row">
-        <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/Ritratto-d-ignoto.html#" target="_blank" style="font-size: 12px; margin-left: 12rem; color:whitesmoke;" id="veditutti">
-        Vedi tutti</a>
+        <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/Ritratto-d-ignoto.html#" target="_blank" id="veditutti">
+          Vedi tutti
+        </a>
       </div>
       
       <div class="row">
         <div class="col-md-4" id="colonna1-5-01">
-          <div class="card" style="width: 20rem; margin-left: 3rem; margin-top:3rem;" id="card1-5">
-              <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaLaspia.html#"><img src="img/01/13La-spia.jpeg" class="card-imagine" alt="La Spia" title="La Spia" style="width:20rem;">
+          <div class="card" id="card1">
+              <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaLaspia.html#">
+                <img src="img/01/13La-spia.jpeg" class="card-imagine" id="card-immagine1" alt="La Spia" title="La Spia">
               </a>
-            <div class="card-body"><p class="card-text" style="margin-top: 7px;"><h4 style="font-size: 17px;font-style: italic;">La Spia</h4>2002, acrilico su tela, 90x90 cm </p>
+            <div class="card-body">
+              <p class="card-text" style="margin-top: 7px;">
+                <h4><b>La Spia</b></h4>
+                2002, acrilico su tela, 90x90 cm 
+              </p>
             </div>
           </div><!-- CARD IMMAGINE 1 -->
         </div>
         
         <div class="col-md-4" id="colonna2-5-01">
-          <div class="card" style="width: 20rem; margin-left: 2.5rem; margin-top:3rem; " id="card2-5">
-            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaRitrattodignoto.html#"><img src="img/01/14Ritratto-d-ignoto.jpg" class="card-imagine" style="width:20rem; " alt="Ritratto d'ignoto" title="Ritratto d'ignoto"></a>
+          <div class="card" id="card2">
+            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaRitrattodignoto.html#">
+              <img src="img/01/14Ritratto-d-ignoto.jpg" class="card-imagine" id="card-immagine1" alt="Ritratto d'ignoto" title="Ritratto d'ignoto">
+            </a>
             <div class="card-body">
-                <p class="card-text" style="margin-top: 7px;"><h4 style="font-size:17px; font-style: italic;">Ritratto d'ignoto</h4> 2001, acrilico su tela, 90x90 cm</p>
+                <p class="card-text" style="margin-top: 7px;">
+                  <h4><b>Ritratto d'ignoto</b></h4> 
+                  2001, acrilico su tela, 90x90 cm
+                </p>
             </div>
           </div><!-- CARD IMMAGINE 2 -->
         </div>
 
         <div class="col-md-4" id="colonna3-5-01">
-          <div class="card" style="width: 20rem; margin-left: 2rem; margin-top:3rem" id="card3-5">
-            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaOggettisenzadesiderio.html#"><img src="img/01/15Oggetti-senza-desiderio.jpg" class="card-imagine" style="width:20rem" alt="Oggetti senza desiderio" title="Oggetti senza desiderio"></a>
-            <div class="card-body"><p class="card-text"><h4 style="font-size:17px;font-style: italic;">Oggetti senza desiderio</h4>2001, acrilico su tela, 60x80 cm</p>
+          <div class="card" id="card3">
+            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaOggettisenzadesiderio.html#">
+              <img src="img/01/15Oggetti-senza-desiderio.jpg" class="card-imagine" id="card-immagine1" alt="Oggetti senza desiderio" title="Oggetti senza desiderio">
+            </a>
+            <div class="card-body">
+              <p class="card-text">
+                <h4><b>Oggetti senza desiderio</b></h4>
+                2001, acrilico su tela, 60x80 cm
+              </p>
             </div>
           </div><!-- CARD IMMAGINE 3 -->
         </div>
@@ -310,7 +405,9 @@
 </body>
     
 <footer>
-  <p><!-- Riferimento all'entità carattere &name; --> &copy; Caterina Rimensi 2023</p><p> Esercizio realizzato durante il corso di Digital Humanities e Patrimonio Culturale, Università di Bologna.</p></p>
+  <div id="autorità">
+    <p><!-- Riferimento all'entità carattere &name; --> &copy; Caterina Rimensi 2023</p><p> Esercizio realizzato durante il corso di Digital Humanities e Patrimonio Culturale, Università di Bologna.</p>
+  </div>
 </footer>
 
 </html>

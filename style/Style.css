@@ -14,67 +14,164 @@ h2{
 	font-size: 27px;
 	}
 h3{
+	font-size: 35px !important; 
+	text-align:center !important; 
+	margin-top:3rem !important; 
+	color:#eef343; 
+	font-family: 'Quicksand', sans-serif;"
+	}
+h4{
 	color:#000000;
-	font-size: 5rem;
+	font-size:1rem !important;
+	font-style: italic;
+	font-style: bold;
 	}
 
+/* BASE */
 #titolo{
 	background-color: #eef343;
 	margin-top:2px;
 	margin-bottom: 1px;
 	height:100px;
 	}
-#titolo-colonne {
-	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
-	font-size: 30px;
-	margin-top:2px;
-	margin-bottom: 1px;
-	height:70px;
-	text-align: center;
-
+#GG-lato{
+	color:black;
+	font-size: 27px;
 	}
-#bioimgtext{
-	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
-	font-size: 15px;
-	}
-#textbio{
-	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
-	font-size: 25px;
-	}
-
 #Navbar1{
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
 	padding:3px 0px 0px 0px;
 	margin-top:0px;
 	height: 60px;
 	}
-
+	/* link blu cliccabili nella breadcrumb */
+#link-bread{
+	color:blue !important;
+}
 #corpo{
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
 	margin-top:10px;
 	margin-bottom: 10px;
 	}
-
-#trafilettodx {
-    margin-left: 0px !important;
+#titolo-colonne {
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	font-size: 30px;
+	margin-top:2px;
+	margin-bottom: 1px;
+	text-align: center;
 	}
+#autorità{
+	margin-left: 1rem; 
+	color:#444444;
+  }
+
+/* Contatti */
+#container-contatti {
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	color:#000000;
+	background-color: whitesmoke;
+	font-size: 20px;
+	margin-top:2px;
+	margin-bottom: 1px;
+	height:50rem;
+	}
+
+/* Biografia, critica -- Timeline */
+#titolo-timeline{
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	color:black;  
+	text-align: center; 
+	font-size: 3rem;
+	}
+#titolo-bio_critica{
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	font-size: 2rem;
+	background-color: #f0ff7c; 
+	padding-left: 1rem;
+	}
+#sottotitolo-bio{
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	font-size: 25px;
+	}
+#biografia{
+	color: black !important;
+	background-color: #eef343; 
+	width: 28rem; 
+	padding-left: 0.8rem;
+  	}
+#metadati-critica{
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	font-size: 15px;
+	color:black !important;
+	}
+
+/* Opere tutte */
+#veditutti{
+	color: white !important;
+	font-size: 12px; 
+	margin-left: 12rem;
+  	}
+#container-cards{
+	background-color:#707160;
+	width: 80rem;
+	}
+#card-immagine1{
+	width: 20rem;
+	}
+#row-opere{
+	height: 6rem; 
+	margin-top: 2px;
+	}
+#card1{
+	width:20rem !important; 
+	margin-left:3rem !important; 
+	margin-top:3rem !important;
+	}
+#card2{
+	width:20rem !important; 
+	margin-left:2.5rem !important; 
+	margin-top:3rem !important;
+	}
+#card3{
+	width:20rem !important; 
+	margin-left:2rem !important; 
+	margin-top:3rem !important;
+	}
+
+/* Contatti e avvisi */
+#titoli-cont-avv{
+	text-align: center; 
+	font-size: 25px;
+	}
+#cont-avv{
+    width: 30rem; 
+	margin-top: 2rem;
+	}
+#card-avv{
+    width: 26rem; 
+	height:10rem; 
+	margin-top: 2rem; 
+	margin-left: 1rem;
+	background-color: whitesmoke;
+	font-size: 20px;
+	}
+
 #scrollcontainer{
     height:15rem;
 	overflow-y: scroll
 	}
 
-pre {
-    color:indigo;
-    padding:20px;
+#bioimgtext{
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	font-size: 15px;
 	}
-
-span {
+span{
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
 	outline:none;
-	 }
+	}
 
-a {
-	color:#000000;
+a{
+	color: black !important;
   }
 
 footer {
@@ -93,17 +190,14 @@ button {
 	outline-color: transparent;
 	   }
 div {
-	color:#000000;
+	color: black;
 	}
 p {
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
   }
 li {
-	color:#000000;
+	color:black;
    }
 table {
-	color:#000000;
+	color:black;
 	  }
-div {
-
-	}

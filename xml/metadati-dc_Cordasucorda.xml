@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <collezione xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="GG00650023"> 
-	<item n="21" xml:id="CordaSuCorda"> 
+	<item n="21" xml:id="GG00650023-21"> 
 		<genere>Dipinto; Pittura</genere>
 		<titolo-item>Corda su corda</titolo-item>
 		<immagine riferimenti="Sito DH/img/01/07Corda-su-corda2.jpg"/>
 		
 		<metadati>
 			<dc:title>Corda su corda</dc:title>
-			<dc:creator href="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-">Gianfranco Goberti</dc:creator>
+			<dc:creator href="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-" xml:id="GG">Gianfranco Goberti</dc:creator>
 			<dc:date>1990</dc:date>
-			<dc:identifier tipo="digital">file:///Users/caterinarimensi/Desktop/Sito%20DH/img/01/07Corda-su-corda2.jpg</dc:identifier>
-			<dc:format tipo="dimensioni">height 97 cm; width 191 cm</dc:format>
+			<dc:identifier tipo="digitale">file:///Users/caterinarimensi/Desktop/Sito%20DH/img/01/07Corda-su-corda2.jpg</dc:identifier>
+			<dc:format tipo="dimensioni">altezza 97 cm; larghezza 191 cm</dc:format>
 			<dc:format tipo="tecnica">Tecnica mista su carta su legno</dc:format>
-			<dc:format tipo="style">Metafisica; Iperrealismo</dc:format>
+			<dc:format tipo="stile">Metafisica; Iperrealismo</dc:format>
 			<dc:identifier>D548-S-C-01</dc:identifier>
 			<dc:subject>
 				<termine n="1">Opera d'arte</termine>
@@ -28,8 +28,9 @@
 			<dc:rights>Diritti riservati: Studio d'Arte Giranfranco Goberti</dc:rights>
 			<dc:language>It</dc:language>
 			<dc:coverage>Ferrara</dc:coverage>
-			<dc:publisher>Rimensi, Caterina - Alma Mater Studiorum, Università di Bologna</dc:publisher>
-			<dc:creation tipo="data">2023</dc:creation>
+			<dc:creation>1990</dc:creation>
+			<dc:contributor xml:id="RC">Rimensi, Caterina - Alma Mater Studiorum, Università di Bologna</dc:contributor>
+			<dc:creation tipo="digitale">2023</dc:creation>
 		</metadati>
 	</item>
 </collezione>

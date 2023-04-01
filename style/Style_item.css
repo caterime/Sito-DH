@@ -1,99 +1,89 @@
 body{position: relative;
 }
 
+/* BASE */
+#GG-lato{
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	font-size: 27px;
+	color:black !important;	
+	}
+	/* link blu cliccabili nella breadcrumb */
+#link-bread{
+	color:blue !important;
+}
+#titolo{
+	background-color: #eef343;
+	margin-top:2px;
+	margin-bottom: 1px;
+	height:100px;
+}
+#Navbar1{
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	padding:3px 0px 0px 0px;
+	margin-top:0px;
+	height: 60px;
+}
+	/* footer */
+footer {
+	color:black;
+	background-color: whitesmoke;
+	height:70px;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 0.5;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	padding:15px 0 0 15px;
+		}
+#autorità{
+	margin-left: 1rem; 
+	color:#444444;
+	}
+	/* TESTO */
 h1{
-color: #eef343;
-font-family: 'Quicksand', sans-serif;
-font-size: 35px !important;
+	color: #eef343;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 35px !important;
 }
-
 h2{
-color: black;
-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
-font-size: 27px;
+	color: black;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	font-size: 27px;
 }
-
 h3{
-color:white;
-font-size: 20px !important;
+	color:white;
+	font-size: 20px !important;
 }
-
 h4{
-color:white;
-font-size: 18px !important;
-}
-
-a{
-color:black !important;	
-}
-
-p{
 	color:white;
 	font-size: 18px !important;
+}
+a{
+	color:black !important;
+}
+div {
+	color:black;
+}
+
+/* ITEMS descrizone */
+#container-opera{
+	background-color:#606674; 
+	height: 92rem; 
+	margin-left: 8rem; 
+	width: 74rem
 	}
-
-#titolo{
-background-color: #eef343;
-margin-top:2px;
-margin-bottom: 1px;
-height:100px;
-}
-
-#Navbar1{
-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
-padding:3px 0px 0px 0px;
-margin-top:0px;
-height: 60px;
-}
-
+#descrizione-item{
+	color:#fafd8f !important;
+	margin-left: 2rem;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+	font-size: 17px !important;
+	}
 #box-metadati{
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
 	color:#342a2a;
 	background-color: whitesmoke;
+	margin-top: 3rem; 
+	margin-right:1.5rem; 
+	width:21.5rem; 
+	height:32rem
 	}
-
-#scrollcontainer{
-height:15rem;
-overflow-y: scroll
-}
-
-pre {
-color:indigo;
-padding:20px;
-}
-
-span {
-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
-outline:none;
- }
-
-footer {
-color:black;
-background-color: whitesmoke;
-height:70px;
-font-size: 16px;
-text-align: justify;
-line-height: 0.5;
-margin-top: 20px;
-margin-bottom: 5px;
-padding:15px 0 0 15px;
-   }
-
-button {
-outline-color: transparent;
-   }
-div {
-color:#000000;
-}
-p {
-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
-}
-li {
-color:#000000;
-}
-table {
-color:#000000;
-  }
-div {
-
-}

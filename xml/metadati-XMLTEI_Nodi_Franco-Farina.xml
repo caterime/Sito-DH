@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/teilite.rng" type="xml"?>
+<TEI>
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+                <title>Nodi</title>
+                <author xml:id="FF">Farina, Franco</author>
+                <principal xml:id="RC">Rimensi, Caterina</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>Edizione a stampa del catalogo della mostra di Gianfranco Goberti "Opere 1981-85" a Palazzo dei Diamanti (Ferrara) nel 1985.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>L'Artiere Edizioni Italia</publisher>
+                <pubPlace>Ferrara, Italia</pubPlace>
+                <date>1985</date>
+                <biblioScope type="page">p. 4</biblioScope>
+            </publicationStmt>
+            <noteStmt>
+                <p>Citazione riguardo alla serie di opere di Gianfranco Goberti "nodi", che deriva dal testo critico di Franco Farina presente nell'catalogo della mostra "Opere 1981-85" (Palazzo dei Diamanti, 1985).</p>
+            </noteStmt>
+            <sourceDesc>
+                <p>Digitalizzazione di una citazione derivante da un Catalogo cartaceo</p>
+            </sourceDesc>
+            <extent>101.811 bytes</extent>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="it">
+        <head><p>"Nodi"</p>
+            <p>Franco Farina</p>
+        </head>
+        <body>
+            <p>C’è nei <rs type="painting subject">nodi</rs> <rs type="name" ref="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-"><choice><orig>gobertiani</orig><reg>di Gianfranco Goberti</reg></choice></rs> uno <emph>“snodo”</emph> narrativo <hi rend="quoted">pilotato</hi> verso una destina-<lb/>zione che presenta tante varianti quante sono le caratteristiche e la perso-<lb/>nalità dei destinatari, proprio per le interferenze linguistiche e per l’inseri-<lb/>mento di una dinamica che consente al proprio interno processi di modifi-<lb/>cazione iconica che accrescono di valore il contenuto.</p>
+        </body>
+    </text>
+</TEI>
