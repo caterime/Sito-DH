@@ -105,68 +105,74 @@
 
   <body>
 
+    <!-- BOTTONE SU -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Torna su</button>
+
     <!-- TIMELINE -->
       <div style="background-color: #faffc0;"><p id="titolo-timeline"><b>TIMELINE</b></p></div>      
       <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1zsP6GK3K322n_ucNd3z5bowzD1Gj_3sD9NUWRg95zBI&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 
-    <!-- CONTAINER -->
-    <div class="container-fluid" id="corpo">
-      <div class="row">
-        
-        <!-- col bio -->
-        <div class="col-md-6">
-          <div class="card" style="width: 38rem; height: 128rem; margin-left: 3rem;" id="card-sx-biografia">
-            <div class="card-body" style="background-color: whitesmoke;">
-              <p class="card-text" style="font-size: 20px;">
-                <div id="titolo-bio_critica"><b>BIOGRAFIA</b></div>
-                <hr>
-                <p id="sottotitolo-bio">GIANFRANCO GOBERTI</p>
-                Esordisce nel panorama artistico italiano negli anni Sessanta con opere pittoriche che si possono ricondurre all'ambito della <b>Nuova Figurazione</b>, con riferimenti a Picasso e alle "<i>defigurazioni</i>" di Francis Bacon.
-                <br>Espone per la prima volta al Teatro Comunale di Ferrara nel 1959 mentre già nel 1965 partecipa alla IX Quadriennale nazionale d'arte di Roma. 
-                
-                <br><br>Dagli anni Settanta Goberti si sposta verso lo stile <b>Optical</b> ma è soprattutto influenzato dai soggetti-oggetti delle opere pittoriche di Domenico Gnoli. 
-                Infatti i leitmotiv delle sue tele sono indumenti e mobilio rigorosamente a righe, che spesso si moltiplicano sulla tela fino a raggiungere l'irriconoscibilità; un'altra presenza costante è quella dello specchio.
-                <br>Sempre nel decennio Settanta si avvicina a tematiche del <b>Concettuale</b> e, anche grazie all'utilizzo del medium fotografico, realizza una serie di opere in cui è evidente la riflessione sul confine labile tra realtà e rappresentazione.
-                
-                <br><br>Continua negli anni Ottanta e Novanta il suo interesse per stoffe rigate, indumenti e mobilio a cui si affianca il nuovo tema delle <i><b>Corde</b></i>. Queste ultime spesso si stagliano, o si lacerano, in cieli azzurri e sospesi di derivazione magrittiana.
-                
-                <br><br>Dagli anni Duemila l'interesse si sposta verso la figura mitologica di <i><b>Icaro</b></i>, in una veste del tutto inedita e ibridata, mentre continua la riflessione sulla contrapposizione tra reale e rappresentazione del reale, questa volta legata al tema religioso ripreso dal Vangelo di Luca, come in <i>Ultima cena</i> e <i>Moltiplicazione dei pani</i>.
-                <br>Sempre legate alla spiritualità sono le opere realizzate dopo il viaggio ad Edessa del 2009 i cui soggetti rivelatori sono le carpe e la moschea di Sanliurfa.
-                
-                <br><br>Nell'ultimo decennio di attività Goberti continua sostanzialmente nelle ricerche precedenti: ritornano nelle sue opere le stoffe rigate, i cieli azzurri e le corde. 
-                <br>In generale la sua produzione artistica riflette sull'<b>illusionarietà dello spazio e del reale</b>; lo fa attraverso i decenni con stili e attraverso medium differenti che riescono sempre a mettere in risalto l'ambiguità di fondo di ciò che percepiamo come reale.
-                
-                <br><br>Gianfranco Goberti muore nel febbraio del 2023 dopo una lunga e prolifica carriera artistica di grande influenza, non soltanto nel panormana ferrarese.
-                
-                <br><br>Tra le sue <b>esposizioni</b> più importanti: Galleria 2000, Bologna (1977, a cura di G. Dorfles); Artefiera Bologna (1978, a cura di P. Restany); Drazek Art Gallery, Monaco di Baviera (1983, a cura di C. Spadoni); Palazzo Diamanti, Ferrara (1985, a cura di F. Farina e V. Sgarbi); Palazzo Ducale, Urbino (1986, a cura di F.Farina). 
-              </p>
-              <hr>
-              <p>
-                <div id="biografia"><b style="font-size: 1.5rem">SU DI SE</b> - Da un'intervista del 1990 con Fausto Gozzi:</div>
+    <!-- Bottoni -->
+    <div id="bottoni">
+      <p>
+        <button style="background-color: #f7fe96; border-color: #f7fe96;" class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#biografia" aria-expanded="false" aria-controls="collapseExample">
+          BIOGRAFIA
+        </button>
+        <button style="background-color: #f7fe96; border-color: #f7fe96;" class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#sudise" aria-expanded="false" aria-controls="collapseExample">
+          SU DI SE - Intervista
+        </button>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#sgarbi" aria-expanded="false" aria-controls="collapseExample" style="margin-left: 4rem;">
+          CRITICA - Vittorio Sgarbi
+        </button>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#rosen" aria-expanded="false" aria-controls="collapseExample">
+          CRITICA - James Rosen
+        </button>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#farina" aria-expanded="false" aria-controls="collapseExample">
+          CRITICA - Franco Farina
+        </button>
+      </p>
+          <!-- 1 BIO -->
+          <div class="collapse" id="biografia">
+            <div class="card card-body" id="bottoni-testo">
                 <br>
-                <i>Ho cominciato piuttosto giovane a fare pittura e ritenermi, perciò, un pittore. Ho percorso tutto l’iter di studio che si conviene a chi, a quattro anni di età giocava con il fango, in strada, con l’intenzione di fare della scultura, a cinque anni pretendeva di fare il ritratto del padre, a otto anni disegnava “strip” western che passava ai propri compagni delle elementari in cambio di un utile suggerimento di matematica e a nove anni aveva deciso che, un giorno, avrebbe scritto queste cose poiché sarebbe stato un’artista; poi la prima mostra. 
-                <br>A diciassette anni ho vinto il mio primo premio di pittura, a diciotto, a Ferrara, il “Pennello d’oro”. Nel 1965 mi sono diplomato all’Accademia d’arte a Bologna (già insegnavo pittura all’Istituto d’arte di Ferrara) e ho partecipato alla Quadriennale di Roma e ad altre mostre. 
-                <br>Nel 1978 sono stato uno dei sei finalisti al “Premio Bolaffi” (vinto da Paolini), mi segnalò Gillo Dorfles, e un giorno, se avremmo tempo, ti dirò come ciò possa essere accaduto ad un artista, qual ero io, poco conosciuto e il merito va alla libertà intellettuale di Dorfles.
-                <br><br>Il mio lavoro? Ho attraversato il mare mosso della Nuova Figurazione e dell’Espressionismo Astratto, poi sono stato un po' concettuale - il mio lavoro è piaciuto a Restany e ne ha scritto.
-                <br>Ho anche violentato un certo “optical” rendendolo figurativo, cercando di fargli circolare, tra le righe, un po' di sangue.
-                <br>Negli ultimi anni ha disegnato molto, sin grandi dimensioni, perlopiù corde che si legavano, si spezzavano, si tendevano fino a rompersi, a deflagrare in tante particelle consapevoli di essere giunte (era per me un segnale?) alla conclusione di un ciclo.
-                <br>Oggi mi ritengo ancora tanto giovane da poter “dipingere” - cosa che, per altro, non ho mai smesso di fare, pur tra altre esperienze - e così il viaggio continua...
-                </i>
+                <p>Esordisce nel panorama artistico italiano negli anni Sessanta con opere pittoriche che si possono ricondurre all'ambito della <b>Nuova Figurazione</b>, con riferimenti a Picasso e alle "<i>defigurazioni</i>" di Francis Bacon.
+                <br>Espone per la prima volta al Teatro Comunale di Ferrara nel 1959 mentre già nel 1965 partecipa alla IX Quadriennale nazionale d'arte di Roma.</p>   
+                <br><p>Dagli anni Settanta Goberti si sposta verso lo stile <b>Optical</b> ma è soprattutto influenzato dai soggetti-oggetti delle opere pittoriche di Domenico Gnoli. 
+                Infatti i leitmotiv delle sue tele sono indumenti e mobilio rigorosamente a righe, che spesso si moltiplicano sulla tela fino a raggiungere l'irriconoscibilità; un'altra presenza costante è quella dello specchio.
+                <br>Sempre nel decennio Settanta si avvicina a tematiche del <b>Concettuale</b> e, anche grazie all'utilizzo del medium fotografico, realizza una serie di opere in cui è evidente la riflessione sul confine labile tra realtà e rappresentazione.</p>   
+                <br><p>Continua negli anni Ottanta e Novanta il suo interesse per stoffe rigate, indumenti e mobilio a cui si affianca il nuovo tema delle <i><b>Corde</b></i>. Queste ultime spesso si stagliano, o si lacerano, in cieli azzurri e sospesi di derivazione magrittiana.</p>   
+                <br><p>Dagli anni Duemila l'interesse si sposta verso la figura mitologica di <i><b>Icaro</b></i>, in una veste del tutto inedita e ibridata, mentre continua la riflessione sulla contrapposizione tra reale e rappresentazione del reale, questa volta legata al tema religioso ripreso dal Vangelo di Luca, come in <i>Ultima cena</i> e <i>Moltiplicazione dei pani</i>.
+                <br>Sempre legate alla spiritualità sono le opere realizzate dopo il viaggio ad Edessa del 2009 i cui soggetti rivelatori sono le carpe e la moschea di Sanliurfa.</p>   
+                <br><p>Nell'ultimo decennio di attività Goberti continua sostanzialmente nelle ricerche precedenti: ritornano nelle sue opere le stoffe rigate, i cieli azzurri e le corde. 
+                <br>In generale la sua produzione artistica riflette sull'<b>illusionarietà dello spazio e del reale</b>; lo fa attraverso i decenni con stili e attraverso medium differenti che riescono sempre a mettere in risalto l'ambiguità di fondo di ciò che percepiamo come reale.</p>   
+                <br><p>Gianfranco Goberti muore nel febbraio del 2023 dopo una lunga e prolifica carriera artistica di grande influenza, non soltanto nel panormana ferrarese.</p>    
+                <br><p>Tra le sue <b>esposizioni</b> più importanti: Galleria 2000, Bologna (1977, a cura di G. Dorfles); Artefiera Bologna (1978, a cura di P. Restany); Drazek Art Gallery, Monaco di Baviera (1983, a cura di C. Spadoni); Palazzo Diamanti, Ferrara (1985, a cura di F. Farina e V. Sgarbi); Palazzo Ducale, Urbino (1986, a cura di F.Farina).</p> 
               </p>
             </div>
           </div>
-        </div>
-        
-        <!-- col critica -->
-        <div class="col-md-6">
-          <div class="card"  style="width: 38rem; margin-left: 2rem;" id="card-dex-critica">
-            <div class="card-body" style="background-color: whitesmoke;">
-              <p class="card-text">
-                <div id="titolo-bioecritica"><b>CRITICA</b></div>
-                <hr>
-                <div style="background-color: #f7fe96; width: 7.7rem"><b>Vittorio Sgarbi</b>:</div>
+            <!-- 2 INTERVISTA -->
+            <div class="collapse" id="sudise">
+              <div class="card card-body" id="bottoni-testo">
+                <p>
+                  <br>
+                  <b>Intervista del 1989 con Franco Gozzi:</b>
+                  <br><br>
+                  <i>Ho cominciato piuttosto giovane a fare pittura e ritenermi, perciò, un pittore. Ho percorso tutto l’iter di studio che si conviene a chi, a quattro anni di età giocava con il fango, in strada, con l’intenzione di fare della scultura, a cinque anni pretendeva di fare il ritratto del padre, a otto anni disegnava “strip” western che passava ai propri compagni delle elementari in cambio di un utile suggerimento di matematica e a nove anni aveva deciso che, un giorno, avrebbe scritto queste cose poiché sarebbe stato un’artista; poi la prima mostra. 
+                  <br>A diciassette anni ho vinto il mio primo premio di pittura, a diciotto, a Ferrara, il “Pennello d’oro”. Nel 1965 mi sono diplomato all’Accademia d’arte a Bologna (già insegnavo pittura all’Istituto d’arte di Ferrara) e ho partecipato alla Quadriennale di Roma e ad altre mostre. 
+                  <br>Nel 1978 sono stato uno dei sei finalisti al “Premio Bolaffi” (vinto da Paolini), mi segnalò Gillo Dorfles, e un giorno, se avremmo tempo, ti dirò come ciò possa essere accaduto ad un artista, qual ero io, poco conosciuto e il merito va alla libertà intellettuale di Dorfles.
+                  <br><br>Il mio lavoro? Ho attraversato il mare mosso della Nuova Figurazione e dell’Espressionismo Astratto, poi sono stato un po' concettuale - il mio lavoro è piaciuto a Restany e ne ha scritto.
+                  <br>Ho anche violentato un certo “optical” rendendolo figurativo, cercando di fargli circolare, tra le righe, un po' di sangue.
+                  <br>Negli ultimi anni ha disegnato molto, sin grandi dimensioni, perlopiù corde che si legavano, si spezzavano, si tendevano fino a rompersi, a deflagrare in tante particelle consapevoli di essere giunte (era per me un segnale?) alla conclusione di un ciclo.
+                  <br>Oggi mi ritengo ancora tanto giovane da poter “dipingere” - cosa che, per altro, non ho mai smesso di fare, pur tra altre esperienze - e così il viaggio continua...</i>
+                </p>
+              </div>
+            </div>
+            <!-- 3 SGARBI -->
+            <div class="collapse" id="sgarbi">
+              <div class="card card-body" id="bottoni-testo">
                 <br>
-                "<i>L’arte di Goberti è l’elemento che dovrebbe suscitare nuovo interesse nel nostro modo di vedere e 
+                <p>
+                  "<i>L’arte di Goberti è l’elemento che dovrebbe suscitare nuovo interesse nel nostro modo di vedere e 
                   di convivere con ciò che ci sta attorno? <br> Forse la sua abilità tecnica? <br> Risulta assolutamente imprescindibile 
                   dalle intenzioni dell’artista la capacità riproduttiva che è solo lo strumento operativo di un discorso 
                   di più ampia portata. In realtà, il tema dominante della pittura di Goberti è il rapporto tra l’arte e ciò che 
@@ -186,17 +192,21 @@
                   riflette precisi stati d’animo, coscienza e mentalità dell’autore. <br><br>L’arte, insomma, ha sempre un suo linguaggio specifico 
                   e una sostanza umana anche quando vorrebbe mimetizzarsi nella natura. È questa la lezione, la revisione nel nostro modo di essere nel mondo 
                   che ci propone Gianfranco Goberti. Vi sembra poco?</i>"
-                <br>
+                </p>
                 <br>
                 <div id="metadati-critica">
                   Metadati testo:<br>
                   <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/xml/metadati-XMLTEI_Il-nostro-modo-di-essere-nel-mondo_Vittorio-Sgarbi.xml" target="_blank">File XML/TEI</a>
                   <br><a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/xml/metadati-dc_Il-nostro-modo-di-essere-nel-mondo_Vittorio-Sgarbi.xml" target="_blank">File Dublin Core</a>
                 </div>
-                <hr>
-                <div id="critica-autore" style="background-color: #f7fe96; width: 7rem"><b>James Rosen</b>:</div>
+              </div>
+            </div>
+            <!-- ROSEN -->
+            <div class="collapse" id="rosen">
+              <div class="card card-body" id="bottoni-testo">
                 <br>
-                "<i>Le anomalie cromatiche e non-cromatiche di Leger. <br>I ritmi di colore della “Villa dei Misteri” a Pompei. <br>L’accuratezza nei bronzi africani di Ife. 
+                <p>
+                  "<i>Le anomalie cromatiche e non-cromatiche di Leger. <br>I ritmi di colore della “Villa dei Misteri” a Pompei. <br>L’accuratezza nei bronzi africani di Ife. 
                   <br>Il gioco rococò nelle superficie di Watteau.
                   <br>Leger? Pompei? Ife? Watteau?
                   <br>Differente? Separato? Che importa? 
@@ -210,6 +220,7 @@
                   camicia abbiano la loro forma volumetrica. 
                   <br>Come Leger, Goberti - a suo modo - fa sì che nero e bianco (colori acromatici) lavorino come cromatismo. E come negli affreschi di Villa dei Misteri, 
                   il colore più tenue, in Goberti, diventa il colore più rilevante.</i>"
+                </p>
                 <br>
                 <br>
                 <div id="metadati-critica">
@@ -217,13 +228,18 @@
                   <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/xml/metadati-XMLTEI_Sul-lavoro-di-Goberti_James-Rosen.xml" target="_blank">File XML/TEI</a>
                   <br><a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/xml/metadati-dc_Sul-lavoro-di-Goberti_James-Rosen.xml" target="_blank">File Dublin Core</a>
                 </div>
-                <hr>
-                <div id="critica-autore" style="background-color: #f7fe96; width: 7.1rem"><b>Franco Farina</b>:</div>
+              </div>
+            </div>
+            <!-- FARINA -->
+            <div class="collapse" id="farina">
+              <div class="card card-body" id="bottoni-testo">
                 <br>
-                "<i>C’è nei nodi gobertiani uno “snodo” narrativo pilotato verso una destinazione che presenta tante varianti 
+                <p>
+                  "<i>C’è nei nodi gobertiani uno “snodo” narrativo pilotato verso una destinazione che presenta tante varianti 
                   quante sono le caratteristiche e la personalità dei destinatari, proprio per le interferenze linguistiche e per
                   l’inserimento di una dinamica che consente al proprio interno processi di modificazione iconica che accrescono 
                   di valore il contenuto.</i>"
+                </p>
                 <br>
                 <br>
                 <div id="metadati-critica">
@@ -231,15 +247,33 @@
                   <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/xml/metadati-XMLTEI_Nodi_Franco-Farina.xml" target="_blank">File XML/TEI</a>
                   <br><a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/xml/metadati-dc_Nodi_Franco-Farina.xml" target="_blank">File Dublin Core</a>
                 </div>
-              </p>
+              </div>
             </div>
-          </div>
-        </div>
-
       </div>
-    </div>
+      <hr>
 
-    <hr>
+    <!-- JS per bottone SU -->
+    <script>
+      // Get the button
+      let mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
 
     <!-- NAVBAR FONDO -->
     <nav style="margin-left: 1rem; text-align: center;">
@@ -250,7 +284,7 @@
  
   <footer>
     <div id="autorità">
-      <p><!-- Riferimento all'entità carattere &name; --> &copy; Caterina Rimensi 2023</p><p> Esercizio realizzato durante il corso di Digital Humanities e Patrimonio Culturale, Università di Bologna.</p>
+      <p><!-- Riferimento all'entità carattere &name; --> &copy; Caterina Rimensi, aprile 2023</p><p> Progetto realizzato per l'esame del corso di Digital Humanities e Patrimonio Culturale, Università di Bologna.</p>
     </div>
   </footer>
 

@@ -31,7 +31,7 @@
     <meta name="DC.date" content="2023-04-05"/><!---- year mese e giorno --->
     <meta name="DC.coverage" content="Italy"/>
     <meta name="rightsHolder" content="Copyright Caterina Rimensi">
-      
+     
     <!-- TITOLO -->
     <title>Comunicazioni e avvisi</title>
     <link rel="icon" type="image/x-icon" href="img/icons8-punto.ico">
@@ -104,21 +104,25 @@
   </header>
 
   <body>
+    <!-- BOTTONE SU -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Torna su</button>
 
     <!-- CONTAINER -->
-    <div class="container-fluid" id="container-contatti" style="width: 76rem">
+    <div class="container-fluid" id="container-contatti" style="width: 69rem">
       <div class="row">
         
         <!-- CONTATTI -->
         <div class="col-md-6">
-          <div class="card" style="margin-left: 3rem;" id="cont-avv">
+          <div class="card" id="cont-avv" style="margin-left: 3rem;">
             <div class="card-body" style="background-color: white;">
-              <p class="card-text" style="font-size: 20px;">
+              <p class="card-text">
                 <div id="titoli-cont-avv">
                   <b>CONTATTI</b>
                 </div>
                 <br><i>Studio d'Arte Gianfranco Goberti</i>
                 <br>Via Vignatagliata 57, 44121, Ferrara (FE), Italy
+                <br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.3935178514525!2d11.617901575930146!3d44.83391877107066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477e4e6bcacf9d0d%3A0xa9665436ae3d93cf!2sStudio%20d&#39;Arte%20Gianfranco%20Goberti!5e0!3m2!1sit!2sit!4v1679676164044!5m2!1sit!2sit" width="300" height="150" style="border:0; margin-top: 1rem; margin-left: 1rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br>
                 <br>Tel.  329 215 3870
                 <hr>
                 <div>
@@ -129,30 +133,52 @@
               </p>
             </div>
           </div>
+          <!-- FORM -->
+          <div class="card" id="contattaci">
+            <div class="card-body">
+              <p class="card-text">
+                <div id="titolo-contattaci">
+                  <b>Contattaci</b>
+                </div>
+              </p>
+              <!-- email -->
+              <div class="mb-3" id="form-contattaci">
+                <label for="exampleFormControlInput1" class="form-label">La tua email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <!-- testo -->
+              <div class="mb-3" id="form-contattaci">
+                <label for="exampleFormControlTextarea1" class="form-label">Messaggio</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <!-- BOTTONE -->
+              <button type="button" class="btn btn-outline-light" id="invia">Invia</button>
+            </div>
+          </div>
         </div>
         
         <!-- AVVISI -->
         <div class="col-md-6">
-          <div class="card" id="cont-avv">
+          <div class="card" id="cont-avv" style="height:44rem">
             <div class="card-body">
               <p class="card-text">
                 <div id="titoli-cont-avv">
                   <b>COMUNICAZIONI E AVVISI</b>
                 </div><hr>
               </p>
-
+              <!-- 1 -->
               <div class="card" id="card-avv">
                 <div class="card-body">
                   <p class="card-text"></p>
                 </div>
               </div> 
-
+              <!-- 2 -->
               <div class="card" id="card-avv">
                 <div class="card-body">
                   <p class="card-text"></p>
                 </div>
               </div>
-
+              <!-- 3 -->
               <div class="card" id="card-avv">
                 <div class="card-body">
                   <p class="card-text"></p>
@@ -164,9 +190,31 @@
         </div>
 
       </div>
-    </div>
-
+    </div>   
     <hr>
+
+    <!-- JS per bottone SU -->
+    <script>
+      // Get the button
+      let mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
 
   <!-- NAVBAR FONDO -->
   <nav style="margin-left: 1rem; text-align: center;">
@@ -177,7 +225,7 @@
    
   <footer>
     <div id="autorità">
-      <p><!-- Riferimento all'entità carattere &name; --> &copy; Caterina Rimensi 2023</p><p> Esercizio realizzato durante il corso di Digital Humanities e Patrimonio Culturale, Università di Bologna.</p>
+      <p><!-- Riferimento all'entità carattere &name; --> &copy; Caterina Rimensi, aprile 2023</p><p> Progetto realizzato per l'esame del corso di Digital Humanities e Patrimonio Culturale, Università di Bologna.</p>
     </div>
   </footer>
 

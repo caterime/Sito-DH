@@ -6,7 +6,10 @@
             <titleStmt>
                 <title>Sul lavoro di Gianfranco Goberti</title>
                 <author xml:id="RJ" href="https://viaf.org/viaf/47614769/#Rosen,_James_1933-">Rosen, James</author>
-                <principal xml:id="RC">Rimensi, Caterina</principal>
+                <respStmt>
+                    <resp>Digitalizzazione</resp>
+                    <name xml:id="RC">Rimensi, Caterina</name>
+                </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition>Edizione a stampa del catalogo della mostra di Gianfranco Goberti "Quattro Stanze" a Delizia Estense del Verginese (Portomaggiore, FE), maggio 2002.</edition>

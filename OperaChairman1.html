@@ -106,9 +106,12 @@
 
   </header>
   <body>
+
+    <!-- BOTTONE SU -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Torna su</button>
     
     <!-- SCHEDA OPERA -->
-    <div class="container-fluid" id="container-opera" style="background-color:#606674; height: 92rem; margin-left: 8rem; width: 74rem">
+    <div class="container-fluid" id="container-opera">
       <div class="row">
 
         <!-- DESCRIZIONE -->
@@ -190,8 +193,95 @@
         </div>
       </div>
     </div>
-
     <hr>
+
+    <!-- CONTAINER CORRELATI -->
+    <div class="container-fluid" id="container-correlati" style="height: 34rem;">
+      
+      <div class="row" id="row-correlati">
+        <div id="titolo-correlati">
+          CORRELATI   
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card" id="card-correlati">
+            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaPoltrona.html">
+              <img src="img/01/05Poltrona.jpg" class="card-imagine" id="card-immagine1" alt="Poltrona" title="Poltrona">
+            </a>
+            <div class="card-body">
+              <p class="card-text" style="margin-top: 7px;">
+                <b>Poltrona</b> 
+                <br>2001, acrilico su tela, 90x90 cm
+              </p>
+            </div>
+          </div><!-- CARD IMMAGINE 1 -->
+        </div>
+        <div class="col-md-3">
+          <div class="card" id="card-correlati">
+            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaChairman3.html">
+              <img src="img/01/06-02Chairman3.jpg" class="card-imagine" id="card-immagine1" alt="Chairman" title="Chairman">
+            </a>
+            <div class="card-body">
+                <p class="card-text" style="margin-top: 7px;">
+                  <b>Chairman</b>
+                  <br>2002, acrilico su tela, 35x35 cm
+                </p>
+            </div>
+          </div><!-- CARD IMMAGINE 2 -->
+        </div>
+        <div class="col-md-3">
+          <div class="card" id="card-correlati">
+            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaPoltronablu.html">
+              <img src="img/01/03-02Poltrona-blu.jpg" class="card-imagine" id="card-immagine1" alt="Poltrona blu" title="Poltrona blu">
+            </a>
+            <div class="card-body">
+              <p class="card-text">
+                <b>Poltrona blu</b> 
+                <br>1992, olio su tela, 100x90 cm
+              </p>
+            </div>
+          </div><!-- CARD IMMAGINE 3 -->
+        </div>
+        <div class="col-md-3">
+          <div class="card" id="card-correlati">
+            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaImpronta.html">
+              <img src="img/01/01-02Impronta.jpg" class="card-imagine" id="card-immagine1" alt="Impronta" title="Impronta">
+            </a>
+            <div class="card-body">
+              <p class="card-text">
+                <b>Impronta</b> 
+                <br>1989, olio su tela, 120x80 cm
+              </p>
+            </div>
+          </div><!-- CARD IMMAGINE 3 -->
+        </div>  
+      </div>
+    </div>
+
+    <!-- JS per bottone SU -->
+    <script>
+      // Get the button
+      let mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+
 
   <!-- NAVBAR FONDO -->
   <nav style="margin-left: 1rem; text-align: center;">
@@ -202,7 +292,7 @@
      
   <footer>
     <div id="autorità">
-      <p><!-- Riferimento all'entità carattere &name; --> &copy; Caterina Rimensi 2023</p><p> Esercizio realizzato durante il corso di Digital Humanities e Patrimonio Culturale, Università di Bologna.</p>
+      <p><!-- Riferimento all'entità carattere &name; --> &copy; Caterina Rimensi, aprile 2023</p><p> Progetto realizzato per l'esame del corso di Digital Humanities e Patrimonio Culturale, Università di Bologna.</p>
     </div>
   </footer>
 

@@ -104,9 +104,12 @@
 
   </header>
   <body>
+
+    <!-- BOTTONE SU -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Torna su</button>
     
     <!-- SCHEDA OPERA -->
-    <div class="container-fluid" id="container-opera" style="background-color:#606674; height: 92rem; margin-left: 8rem; width: 74rem">
+    <div class="container-fluid" id="container-opera">
       <div class="row">
 
         <!-- DESCRIZIONE -->
@@ -150,7 +153,7 @@
               <i>D548-S-OG-01</i>
               <br>
               <br><h4><b>DESCRIZIONE</b></h4>
-              <i>Dipinto "L'immagine" realizzato da Gianfranco Goberti nel 1967, periodo giovanile in cui era legato alla Nuova Figurazione e a Francis Bacon. <br>Descrizione: figura davanti allo specchio, accanto ad una poltrona a righe.</i>
+              <i>Dipinto "L'immagine" realizzato da Gianfranco Goberti nel 1967, periodo giovanile in cui era legato alla Nuova Figurazione e a Francis Bacon.</i>
               <br>
               <br><h4><b>SOGGETTI</b></h4>
               <i>Opera d'Arte; Arte contemporanea; Pittura; Gianfranco Goberti; Dipinto; Nuova Figurazione</i>
@@ -189,7 +192,93 @@
       </div>
     </div>
 
-    <hr>
+    <!-- CONTAINER CORRELATI -->
+    <div class="container-fluid" id="container-correlati">
+      
+      <div class="row" id="row-correlati">
+        <div id="titolo-correlati">
+          CORRELATI   
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card" id="card-correlati">
+            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaFigurainternoesterno.html">
+              <img src="img/01/01-01Figura-interno-esterno.jpg" class="card-imagine" id="card-immagine1" alt="Figura interno esterno" title="Figura interno esterno">
+            </a>
+            <div class="card-body">
+              <p class="card-text" style="margin-top: 7px;">
+                <b>Figura interno esterno</b> 
+                <br>1966, olio su tela, 120x80cm
+              </p>
+            </div>
+          </div><!-- CARD IMMAGINE 1 -->
+        </div>
+        <div class="col-md-3">
+          <div class="card" id="card-correlati">
+            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaDallas.html#">
+              <img src="img/01/02Dallas.jpg" class="card-imagine" id="card-immagine1" alt="Dalls" title="Dallas (1966)">
+            </a>
+            <div class="card-body">
+                <p class="card-text" style="margin-top: 7px;">
+                  <b>Dallas</b>
+                  <br>1966, olio su tela, 100x70 cm
+                </p>
+            </div>
+          </div><!-- CARD IMMAGINE 2 -->
+        </div>
+        <div class="col-md-3">
+          <div class="card" id="card-correlati">
+            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaFigurarispettandoilcanone.html#">
+              <img src="img/01/03Figura-rispettando-il-canone.jpg" class="card-imagine" id="card-immagine1" alt="Figura rispettando il canone" title="Figura rispettando il canone">
+            </a>
+            <div class="card-body">
+              <p class="card-text">
+                <b>Figura rispettando il canone</b> 
+                <br>1966, olio e acrilico su tela, 100x70 cm
+              </p>
+            </div>
+          </div><!-- CARD IMMAGINE 3 -->
+        </div>
+        <div class="col-md-3">
+          <div class="card" id="card-correlati">
+            <a href="file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaLospecchio3.html">
+              <img src="img/01/04-01Lo-specchio3.jpg" class="card-imagine" id="card-immagine1" alt="Lo specchio" title="Lo specchio">
+            </a>
+            <div class="card-body">
+              <p class="card-text">
+                <b>Lo specchio</b> 
+                <br>1967, olio e acrilico su tela, 100x90 cm
+              </p>
+            </div>
+          </div><!-- CARD IMMAGINE 3 -->
+        </div>  
+      </div>
+    
+    </div>
+
+    <!-- JS per bottone SU -->
+    <script>
+      // Get the button
+      let mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
 
   <!-- NAVBAR FONDO -->
   <nav style="margin-left: 1rem; text-align: center;">
@@ -200,7 +289,7 @@
      
   <footer>
     <div id="autorità">
-      <p><!-- Riferimento all'entità carattere &name; --> &copy; Caterina Rimensi 2023</p><p> Esercizio realizzato durante il corso di Digital Humanities e Patrimonio Culturale, Università di Bologna.</p>
+      <p><!-- Riferimento all'entità carattere &name; --> &copy; Caterina Rimensi, aprile 2023</p><p> Progetto realizzato per l'esame del corso di Digital Humanities e Patrimonio Culturale, Università di Bologna.</p>
     </div>
   </footer>
 

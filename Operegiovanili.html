@@ -103,6 +103,9 @@
 
 </header>
 <body>
+
+  <!-- BOTTONE SU -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Torna su</button>
    
   <!-- OPERE GIOVANILI ITEMS -->
    <div class="container-fluid" id="container-cards" style="height: 143rem;">
@@ -238,9 +241,31 @@
       </div><!-- VUOTA -->
     
     </div>
-
   </div>
   <hr>
+
+  <!-- JS per bottone SU -->
+  <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
 
   <!-- NAVBAR FONDO -->
   <nav style="margin-left: 1rem; text-align: center;">
@@ -251,7 +276,7 @@
    
   <footer>
     <div id="autorità">
-      <p><!-- Riferimento all'entità carattere &name; --> &copy; Caterina Rimensi 2023</p><p> Esercizio realizzato durante il corso di Digital Humanities e Patrimonio Culturale, Università di Bologna.</p>
+      <p><!-- Riferimento all'entità carattere &name; --> &copy; Caterina Rimensi, aprile 2023</p><p> Progetto realizzato per l'esame del corso di Digital Humanities e Patrimonio Culturale, Università di Bologna.</p>
     </div>
   </footer>
 

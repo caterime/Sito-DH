@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <collezione xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="GG-C-0067"> 
-<item n="3" xml:id="GG-C-0067-03"> 
-	<genere>Testo cristico</genere>
+<item n="2" xml:id="GG-C-0067-02"> 
+	<genere>Testo critico</genere>
 	<titolo-item>Sul lavoro di Goberti</titolo-item>
 	<metadati>
 		<dc:title>Sul lavoro di Goberti</dc:title>
 		<dc:creator type="autore" xml:id="RJ" href="https://viaf.org/viaf/47614769/#Rosen,_James_1933-">Rosen, James</dc:creator>
 		<dc:contributor type="traduttore">Guglielmini, Marisa</dc:contributor>
-		<dc:date>1986</dc:date>
+		<dc:date type="anno">1986</dc:date>
 		<dc:format tipo="digitale">testo</dc:format>
-		<dc:identifier>GG-C-0067-03</dc:identifier>
+		<dc:identifier>GG-C-0067-02</dc:identifier>
 		<dc:subject>
 			<termine n="1">Testo critico</termine>
 			<termine n="2">James Rosen</termine>
@@ -21,7 +21,7 @@
 		<dc:language tipo="originale">en-uk</dc:language>
 		<dc:description>Testo critico di James Rosen del 1986 presente nel catalogo della mostra "Quattro Stanze" a Delizia Estense del Verginese (Portomaggiore, FE), maggio 2002.</dc:description>
 		<dc:creation tipo="scritto">1986</dc:creation>
-		<dc:publisher tipo="editore">Litografica Felloni</publisher>
+		<dc:publisher tipo="editore">Litografica Felloni</dc:publisher>
 		<dc:coverage>Portomaggiore, Ferrara</dc:coverage>
 		<dc:creation tipo="pubblicazione">2002</dc:creation>
 		<dc:contributor tipo="digitale" xml:id="RC">Rimensi, Caterina - Alma Mater Studiorum, Università di Bologna</dc:contributor>

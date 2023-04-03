@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <collezione xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="GG-C-0067"> 
-<item n="2" xml:id="GG-C-0067-02"> 
+<item n="3" xml:id="GG-C-0067-03"> 
 	<genere>Citazione</genere>
 	<titolo-item>Nodi</titolo-item>
 	<metadati>
 		<dc:title>Nodi</dc:title>
-		<dc:creator xml:id="FF" href="https://viaf.org/viaf/197217976/#Farina,_Franco">Franco Farina</dc:creator>
-		<dc:date>1985</dc:date>
+		<dc:creator xml:id="FF" href="https://viaf.org/viaf/197217976/#Farina,_Franco">Farina, Franco</dc:creator>
+		<dc:date type="anno">1985</dc:date>
 		<dc:format tipo="digitale">testo</dc:format>
-		<dc:identifier>GG-C-0067-02</dc:identifier>
+		<dc:identifier>GG-C-0067-03</dc:identifier>
 		<dc:subject>
 			<termine n="1">Testo critico</termine>
 			<termine n="2">Citazione</termine>
@@ -18,12 +18,14 @@
 		</dc:subject>
 		<dc:rights>Libera pubblicazione</dc:rights>
 		<dc:language>It</dc:language>
-		<dc:publisher tipo="editore">L'Artiere Edizioni Italia</publisher>
+		<dc:publisher tipo="editore">L'Artiere Edizioni Italia</dc:publisher>
 		<dc:creation tipo="pubblicazione">1985</dc:creation>
 		<dc:description>Citazione riguardo alla serie di opere di Gianfranco Goberti "nodi" che deriva dal testo critico di Franco Farina presente nell'catalogo della mostra "Opere 1981-85" (Palazzo dei Diamanti, FE), 1985.</dc:description>
 		<dc:coverage>Ferrara</dc:coverage>
 		<dc:contributor xml:id="RC">Rimensi, Caterina - Alma Mater Studiorum, Università di Bologna</dc:contributor>
 		<dc:creation tipo="digitale">2023</dc:creation>
+		<dc:source>Citazione dal catalogo della mostra "Opere 1981-85" (1985), p. 4</dc:source>
+		<dc:relation>"Opere 1981-85", catalogo della mostra, Palazzo dei Diamanti (FE), 1985, L'Artiere Edizioni Italia, Ferrara 1985</dc:relation>
 	</metadati>
 </item>
 </collezione>

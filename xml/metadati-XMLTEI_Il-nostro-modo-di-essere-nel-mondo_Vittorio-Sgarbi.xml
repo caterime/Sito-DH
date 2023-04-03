@@ -6,7 +6,10 @@
             <titleStmt>
                 <title>Il nostro modo di essere nel mondo</title>
                 <author xml:id="SV" href="https://viaf.org/viaf/64083221/#Sgarbi,_Vittorio,_1952-....">Sgarbi, Vittorio</author>
-                <principal xml:id="RC">Rimensi, Caterina</principal>
+                <respStmt>
+                    <resp>Digitalizzazione</resp>
+                    <name xml:id="RC">Rimensi, Caterina</name>
+                </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition>Testo presente dell'edizione a stampa del catalogo della mostra di Gianfranco Goberti "Evasioni Coatte" alla Galleria BezaArte (Ferrara), 2000.</edition>

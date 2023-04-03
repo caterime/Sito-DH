@@ -4,8 +4,9 @@
     <teiHeader xml:lang="it">
         <fileDesc>
             <titleStmt>
-                <title>Figura rispettando il canone</title>
+                <title>Lo specchio</title>
 				<autor ref="https://viaf.org/viaf/57518629/#Goberti,_Gianfranco_1939-" xml:id="GG">Gianfranco Goberti (1939-2023)</autor>
+				<principal xml:id="RC">Rimensi, Caterina</principal>
 			<respStmt>
 				<resp>Digitalizzazione</resp>
     			<name xml:id="RC">Rimensi, Caterina</name>
@@ -14,15 +15,15 @@
             <publicationStmt>
 				<distributor>Studio d'Arte Gianfranco Goberti</distributor>
 				<availability><p>Diritti riservati: Studio d'Arte Gianfranco Goberti</p></availability>
-				<date when="1966">1966</date>
+				<date when="1966">1965</date>
 				<pubPlace ref="https://goo.gl/maps/spgk2XjY4oub5VBh7">Ferrara</pubPlace>
-				<idno type="URL">file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaFigurarispettandoilcanone.html</idno>
+				<idno type="URL">file:///Users/caterinarimensi/Desktop/Sito%20DH/OperaLospecchio1.html</idno>
             </publicationStmt>
             <sourceDesc>
 				<p>Digitalizzazione di un'opera d'arte fisica</p>
-                <bibl>Dipinto "Figura rispettando il canone" realizzato da Gianfranco Goberti nel 1966, periodo giovanile in cui era ancora fortemente influenzato dalla Nuova Figurazione e da Francis Bacon.</bibl>
+                <bibl>Acquaforte "Dallas" realizzata da Gianfranco Goberti nel 1965, periodo giovanile in cui era ancora fortemente influenzato dalla Nuova Figurazione e da Francis Bacon.</bibl>
 			</sourceDesc>
-			<extent>808.161 bytes</extent>
+			<extent>55.610 bytes</extent>
         </fileDesc>
     </teiHeader>
     <text xml:lang="it">

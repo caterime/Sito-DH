@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <collezione xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="GG00650023"> 
 	<item n="6" xml:id="GG00650023-06"> 
-		<genere>Dipinto; Pittura</genere>
+		<genere>Acquaforte; Disegno</genere>
 		<titolo-item>Lo specchio</titolo-item>
 		<immagine riferimenti="Sito DH/img/01/03-01Lo-specchio1.jpg"/>
 		
@@ -11,18 +11,18 @@
 			<dc:date>1965</dc:date>
 			<dc:identifier tipo="digitale">file:///Users/caterinarimensi/Desktop/Sito%20DH/img/01/03-01Lo-specchio1.jpg</dc:identifier>
 			<dc:format tipo="dimensioni">foglio: altezza 44 cm, larghezza 33 cm (35x24,5)</dc:format>
-			<dc:format tipo="tecnica">Acquaforte</dc:format>
+			<dc:format tipo="tecnica">Acquaforte; acquatinta</dc:format>
 			<dc:format tipo="stile">Nuova Figurazione</dc:format>
 			<dc:identifier>D548-S-OG-06</dc:identifier>
 			<dc:subject>
 				<termine n="1">Opera d'arte</termine>
 				<termine n="2">Arte Contemporanea</termine>
-				<termine n="3">Pittura</termine>
+				<termine n="3">Acquaforte</termine>
 				<termine n="4">Gianfranco Goberti</termine>
-				<termine n="5">Dipinto</termine>
+				<termine n="5">Disegno</termine>
 				<termine n="6">Nuova Figurazione</termine>
 			</dc:subject>
-			<dc:description>Dipinto "Lo specchio" realizzato da Gianfranco Goberti nel 1965, periodo giovanile in cui era ancora fortemente influenzato dalla Nuova Figurazione e da Francis Bacon.</dc:description>
+			<dc:description>Acquaforte "Lo specchio" realizzata da Gianfranco Goberti nel 1965, periodo giovanile in cui era ancora fortemente influenzato dalla Nuova Figurazione e da Francis Bacon.</dc:description>
 			<dc:format>JPG</dc:format>
 			<dc:rights>Diritti riservati: Studio d'Arte Giranfranco Goberti</dc:rights>
 			<dc:language>It</dc:language>
