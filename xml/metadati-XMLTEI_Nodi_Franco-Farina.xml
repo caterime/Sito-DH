@@ -17,8 +17,7 @@
             <publicationStmt>
                 <publisher>L'Artiere Edizioni Italia</publisher>
                 <pubPlace>Ferrara, Italia</pubPlace>
-                <date>1985</date>
-                <biblioScope type="page">p. 4</biblioScope>
+                <date type="year">1985</date>
             </publicationStmt>
             <noteStmt>
                 <p>Citazione riguardo alla serie di opere di Gianfranco Goberti "nodi", che deriva dal testo critico di Franco Farina presente nell'catalogo della mostra "Opere 1981-85" (Palazzo dei Diamanti, 1985).</p>
@@ -26,6 +25,11 @@
             <sourceDesc>
                 <p>Digitalizzazione di una citazione derivante da un Catalogo cartaceo</p>
             </sourceDesc>
+            <fileDesc>
+                <seriesStmt>
+                    <biblioScope type="page">p. 4</biblioScope>
+                </seriesStmt>
+            </fileDesc>
             <extent>101.811 bytes</extent>
         </fileDesc>
     </teiHeader>

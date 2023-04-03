@@ -26,6 +26,11 @@
             <sourceDesc>
                 <p>Digitalizzazione di un testo critico da un catalogo cartaceo</p>
             </sourceDesc>
+            <fileDesc>
+                <seriesStmt>
+                    <biblioScope type="page">p. 1</biblioScope>
+                </seriesStmt>
+            </fileDesc>
             <extent>9.535 byte</extent>
         </fileDesc>
     </teiHeader>

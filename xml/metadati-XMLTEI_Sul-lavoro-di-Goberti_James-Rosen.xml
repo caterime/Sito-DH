@@ -17,8 +17,7 @@
             <publicationStmt>
                 <publisher>Litografica Felloni</publisher>
                 <pubPlace>Portomaggiore, Ferrara, Italia</pubPlace>
-                <date>2002</date>
-                <biblioScope type="page">p. 22</biblioScope>
+                <date type="year">2002</date>
             </publicationStmt>
             <noteStmt>
                 <p>Testo critico di James Rosen del 1986 pubblicato nel catalogo della mostra "Quattro Stanze" (Delizia Estense del Verginese, Portomaggiore, FE), maggio 2002.</p>
@@ -26,6 +25,11 @@
             <sourceDesc>
                 <p>Digitalizzazione di un testo critico da un catalogo cartaceo</p>
             </sourceDesc>
+            <fileDesc>
+                <seriesStmt>
+                    <biblioScope type="page">p. 22</biblioScope>
+                </seriesStmt>
+            </fileDesc>
             <extent>216.246 bytes</extent>
         </fileDesc>
     </teiHeader>
